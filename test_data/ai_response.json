@@ -1,0 +1,54 @@
+{
+  "narration_script": "In a stunning turn of events, the attack that killed Iran's Supreme Leader Ayatollah Ali Khamenei happened in the middle of the morning, catching the regime off guard. This wasn't a random strike; it was the result of months of planning. President Trump noted that Khamenei was unable to avoid our intelligence and highly sophisticated tracking systems, which allowed the US and Israel to pinpoint his exact location. By monitoring the movements of bodyguards and officials, intelligence agencies were able to build up a pattern of life to predict and understand activity, waiting for that perfect moment of vulnerability. There was a clear division of labor during the mission, with Israel focusing on strikes to hit leadership targets while the US handled military objectives. When the window of opportunity opened, Israeli jets launched a massive assault. Reports indicate that they used 30 bombs to attack the compound around 09:40 local time, aiming for an underground bunker. The strike was devastating. Three senior Iranian defence officials have been confirmed dead by Iran, including the Defence Council secretary and the IRGC commander. While this is a massive blow, the future remains uncertain. Iran had been prepared for this possibility though, with reports that the plans for succession had already been put in place for its top leadership.",
+  "key_points": [
+    {
+      "id": 1,
+      "label": "Morning Strike Timing",
+      "excerpt": "The attack that killed Iran's Supreme Leader Ayatollah Ali Khamenei came not in the middle of the night, as might have been expected, but in the middle of the morning.",
+      "script_anchor": "attack that killed Iran's Supreme Leader Ayatollah Ali Khamenei happened in the middle of the morning",
+      "position_hint": "early"
+    },
+    {
+      "id": 2,
+      "label": "Sophisticated Tracking Systems",
+      "excerpt": "He was unable to avoid our intelligence and highly sophisticated tracking systems.",
+      "script_anchor": "unable to avoid our intelligence and highly sophisticated tracking systems",
+      "position_hint": "early"
+    },
+    {
+      "id": 3,
+      "label": "Pattern of Life Analysis",
+      "excerpt": "Over the long term, this can help build up a \"pattern of life\" to predict and understand activity as well as search for moments of vulnerability.",
+      "script_anchor": "build up a pattern of life to predict and understand activity",
+      "position_hint": "middle"
+    },
+    {
+      "id": 4,
+      "label": "US-Israeli Division of Labor",
+      "excerpt": "The signs are that there is a division of labour with Israel focusing on strikes to hit leadership targets and the US more on military targets.",
+      "script_anchor": "division of labor during the mission, with Israel focusing on strikes to hit leadership targets",
+      "position_hint": "middle"
+    },
+    {
+      "id": 5,
+      "label": "Massive Compound Bombardment",
+      "excerpt": "When the decision was taken, Israeli jets are reported to have used 30 bombs to attack the compound around 09:40 local time.",
+      "script_anchor": "used 30 bombs to attack the compound around 09:40 local time",
+      "position_hint": "middle"
+    },
+    {
+      "id": 6,
+      "label": "Senior Officials Confirmed Dead",
+      "excerpt": "Three senior Iranian defence officials have been confirmed dead by Iran, including Defence Council secretary Ali Shamkhani, Defence Minister Brig Gen Aziz Nasirzadeh and IRGC commander Gen Mohammad Pakpour.",
+      "script_anchor": "Three senior Iranian defence officials have been confirmed dead by Iran",
+      "position_hint": "late"
+    },
+    {
+      "id": 7,
+      "label": "Iranian Succession Plans",
+      "excerpt": "Iran had been prepared for this possibility though, with reports that the plans for succession for not just Khamenei, but also an array of senior officials",
+      "script_anchor": "Iran had been prepared for this possibility though, with reports that the plans for succession",
+      "position_hint": "late"
+    }
+  ]
+}

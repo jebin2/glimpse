@@ -1,0 +1,1573 @@
+{
+  "text": "In a stunning turn of events, the attack that killed Iran's Supreme Leader Ayatollah Ali Khamenei happened in the middle of the morning, catching the regime off guard. This wasn't a random strike; it was the result of months of planning. President Trump noted that Khamenei was unable to avoid our intelligence and highly sophisticated tracking systems, which allowed the US and Israel to pinpoint his exact location. By monitoring the movements of bodyguards and officials, intelligence agencies were able to build up a pattern of life to predict and understand activity, waiting for that perfect moment of vulnerability. There was a clear division of labor during the mission, with Israel focusing on strikes to hit leadership targets while the US handled military objectives. When the window of opportunity opened, Israeli jets launched a massive assault. Reports indicate that they used 30 bombs to attack the compound around 09:40 local time, aiming for an underground bunker. The strike was devastating. Three senior Iranian defence officials have been confirmed dead by Iran, including the Defence Council secretary and the IRGC commander. While this is a massive blow, the future remains uncertain. Iran had been prepared for this possibility though, with reports that the plans for succession had already been put in place for its top leadership.",
+  "language": "",
+  "model": "parakeet-nvidia/parakeet-tdt-0.6b-v3",
+  "duration": 85,
+  "segments": {
+    "word": [
+      {
+        "word": "In",
+        "start_offset": 0,
+        "end_offset": 2,
+        "start": 0.16,
+        "end": 0.32
+      },
+      {
+        "word": "a",
+        "start_offset": 3,
+        "end_offset": 4,
+        "start": 0.32,
+        "end": 0.48
+      },
+      {
+        "word": "stunning",
+        "start_offset": 5,
+        "end_offset": 13,
+        "start": 0.48,
+        "end": 0.96
+      },
+      {
+        "word": "turn",
+        "start_offset": 14,
+        "end_offset": 18,
+        "start": 0.96,
+        "end": 1.2
+      },
+      {
+        "word": "of",
+        "start_offset": 19,
+        "end_offset": 21,
+        "start": 1.2,
+        "end": 1.36
+      },
+      {
+        "word": "events,",
+        "start_offset": 22,
+        "end_offset": 29,
+        "start": 1.36,
+        "end": 1.84
+      },
+      {
+        "word": "the",
+        "start_offset": 30,
+        "end_offset": 33,
+        "start": 2.0,
+        "end": 2.16
+      },
+      {
+        "word": "attack",
+        "start_offset": 34,
+        "end_offset": 40,
+        "start": 2.16,
+        "end": 2.48
+      },
+      {
+        "word": "that",
+        "start_offset": 41,
+        "end_offset": 45,
+        "start": 2.48,
+        "end": 2.72
+      },
+      {
+        "word": "killed",
+        "start_offset": 46,
+        "end_offset": 52,
+        "start": 2.72,
+        "end": 3.12
+      },
+      {
+        "word": "Iran's",
+        "start_offset": 53,
+        "end_offset": 59,
+        "start": 3.12,
+        "end": 3.76
+      },
+      {
+        "word": "Supreme",
+        "start_offset": 60,
+        "end_offset": 67,
+        "start": 3.76,
+        "end": 4.16
+      },
+      {
+        "word": "Leader",
+        "start_offset": 68,
+        "end_offset": 74,
+        "start": 4.16,
+        "end": 4.48
+      },
+      {
+        "word": "Ayatollah",
+        "start_offset": 75,
+        "end_offset": 84,
+        "start": 4.64,
+        "end": 5.36
+      },
+      {
+        "word": "Ali",
+        "start_offset": 85,
+        "end_offset": 88,
+        "start": 5.36,
+        "end": 5.6
+      },
+      {
+        "word": "Khamenei",
+        "start_offset": 89,
+        "end_offset": 97,
+        "start": 5.76,
+        "end": 6.48
+      },
+      {
+        "word": "happened",
+        "start_offset": 98,
+        "end_offset": 106,
+        "start": 6.64,
+        "end": 6.96
+      },
+      {
+        "word": "in",
+        "start_offset": 107,
+        "end_offset": 109,
+        "start": 6.96,
+        "end": 7.12
+      },
+      {
+        "word": "the",
+        "start_offset": 110,
+        "end_offset": 113,
+        "start": 7.12,
+        "end": 7.2
+      },
+      {
+        "word": "middle",
+        "start_offset": 114,
+        "end_offset": 120,
+        "start": 7.2,
+        "end": 7.44
+      },
+      {
+        "word": "of",
+        "start_offset": 121,
+        "end_offset": 123,
+        "start": 7.44,
+        "end": 7.6
+      },
+      {
+        "word": "the",
+        "start_offset": 124,
+        "end_offset": 127,
+        "start": 7.6,
+        "end": 7.68
+      },
+      {
+        "word": "morning,",
+        "start_offset": 128,
+        "end_offset": 136,
+        "start": 7.68,
+        "end": 8.0
+      },
+      {
+        "word": "catching",
+        "start_offset": 137,
+        "end_offset": 145,
+        "start": 8.24,
+        "end": 8.64
+      },
+      {
+        "word": "the",
+        "start_offset": 146,
+        "end_offset": 149,
+        "start": 8.64,
+        "end": 8.8
+      },
+      {
+        "word": "regime",
+        "start_offset": 150,
+        "end_offset": 156,
+        "start": 8.8,
+        "end": 9.36
+      },
+      {
+        "word": "off",
+        "start_offset": 157,
+        "end_offset": 160,
+        "start": 9.36,
+        "end": 9.68
+      },
+      {
+        "word": "guard.",
+        "start_offset": 161,
+        "end_offset": 167,
+        "start": 9.68,
+        "end": 10.24
+      },
+      {
+        "word": "This",
+        "start_offset": 168,
+        "end_offset": 172,
+        "start": 10.48,
+        "end": 10.72
+      },
+      {
+        "word": "wasn't",
+        "start_offset": 173,
+        "end_offset": 179,
+        "start": 10.72,
+        "end": 11.12
+      },
+      {
+        "word": "a",
+        "start_offset": 180,
+        "end_offset": 181,
+        "start": 11.12,
+        "end": 11.28
+      },
+      {
+        "word": "random",
+        "start_offset": 182,
+        "end_offset": 188,
+        "start": 11.28,
+        "end": 11.68
+      },
+      {
+        "word": "strike;",
+        "start_offset": 189,
+        "end_offset": 196,
+        "start": 11.68,
+        "end": 12.24
+      },
+      {
+        "word": "it",
+        "start_offset": 197,
+        "end_offset": 199,
+        "start": 12.4,
+        "end": 12.64
+      },
+      {
+        "word": "was",
+        "start_offset": 200,
+        "end_offset": 203,
+        "start": 12.64,
+        "end": 12.8
+      },
+      {
+        "word": "the",
+        "start_offset": 204,
+        "end_offset": 207,
+        "start": 12.8,
+        "end": 13.12
+      },
+      {
+        "word": "result",
+        "start_offset": 208,
+        "end_offset": 214,
+        "start": 13.12,
+        "end": 13.44
+      },
+      {
+        "word": "of",
+        "start_offset": 215,
+        "end_offset": 217,
+        "start": 13.44,
+        "end": 13.68
+      },
+      {
+        "word": "months",
+        "start_offset": 218,
+        "end_offset": 224,
+        "start": 13.68,
+        "end": 14.16
+      },
+      {
+        "word": "of",
+        "start_offset": 225,
+        "end_offset": 227,
+        "start": 14.16,
+        "end": 14.4
+      },
+      {
+        "word": "planning.",
+        "start_offset": 228,
+        "end_offset": 237,
+        "start": 14.4,
+        "end": 14.88
+      },
+      {
+        "word": "President",
+        "start_offset": 238,
+        "end_offset": 247,
+        "start": 15.12,
+        "end": 15.68
+      },
+      {
+        "word": "Trump",
+        "start_offset": 248,
+        "end_offset": 253,
+        "start": 15.68,
+        "end": 16.0
+      },
+      {
+        "word": "noted",
+        "start_offset": 254,
+        "end_offset": 259,
+        "start": 16.0,
+        "end": 16.32
+      },
+      {
+        "word": "that",
+        "start_offset": 260,
+        "end_offset": 264,
+        "start": 16.32,
+        "end": 16.56
+      },
+      {
+        "word": "Khamenei",
+        "start_offset": 265,
+        "end_offset": 273,
+        "start": 16.56,
+        "end": 17.44
+      },
+      {
+        "word": "was",
+        "start_offset": 274,
+        "end_offset": 277,
+        "start": 17.44,
+        "end": 17.52
+      },
+      {
+        "word": "unable",
+        "start_offset": 278,
+        "end_offset": 284,
+        "start": 17.52,
+        "end": 17.92
+      },
+      {
+        "word": "to",
+        "start_offset": 285,
+        "end_offset": 287,
+        "start": 17.92,
+        "end": 18.08
+      },
+      {
+        "word": "avoid",
+        "start_offset": 288,
+        "end_offset": 293,
+        "start": 18.08,
+        "end": 18.56
+      },
+      {
+        "word": "our",
+        "start_offset": 294,
+        "end_offset": 297,
+        "start": 18.56,
+        "end": 18.8
+      },
+      {
+        "word": "intelligence",
+        "start_offset": 298,
+        "end_offset": 310,
+        "start": 18.8,
+        "end": 19.52
+      },
+      {
+        "word": "and",
+        "start_offset": 311,
+        "end_offset": 314,
+        "start": 19.52,
+        "end": 19.76
+      },
+      {
+        "word": "highly",
+        "start_offset": 315,
+        "end_offset": 321,
+        "start": 19.76,
+        "end": 20.16
+      },
+      {
+        "word": "sophisticated",
+        "start_offset": 322,
+        "end_offset": 335,
+        "start": 20.16,
+        "end": 21.04
+      },
+      {
+        "word": "tracking",
+        "start_offset": 336,
+        "end_offset": 344,
+        "start": 21.04,
+        "end": 21.6
+      },
+      {
+        "word": "systems,",
+        "start_offset": 345,
+        "end_offset": 353,
+        "start": 21.6,
+        "end": 21.92
+      },
+      {
+        "word": "which",
+        "start_offset": 354,
+        "end_offset": 359,
+        "start": 22.0,
+        "end": 22.24
+      },
+      {
+        "word": "allowed",
+        "start_offset": 360,
+        "end_offset": 367,
+        "start": 22.24,
+        "end": 22.64
+      },
+      {
+        "word": "the",
+        "start_offset": 368,
+        "end_offset": 371,
+        "start": 22.64,
+        "end": 22.72
+      },
+      {
+        "word": "US",
+        "start_offset": 372,
+        "end_offset": 374,
+        "start": 22.72,
+        "end": 23.12
+      },
+      {
+        "word": "and",
+        "start_offset": 375,
+        "end_offset": 378,
+        "start": 23.2,
+        "end": 23.36
+      },
+      {
+        "word": "Israel",
+        "start_offset": 379,
+        "end_offset": 385,
+        "start": 23.36,
+        "end": 23.84
+      },
+      {
+        "word": "to",
+        "start_offset": 386,
+        "end_offset": 388,
+        "start": 23.84,
+        "end": 24.08
+      },
+      {
+        "word": "pinpoint",
+        "start_offset": 389,
+        "end_offset": 397,
+        "start": 24.08,
+        "end": 24.88
+      },
+      {
+        "word": "his",
+        "start_offset": 398,
+        "end_offset": 401,
+        "start": 24.88,
+        "end": 25.04
+      },
+      {
+        "word": "exact",
+        "start_offset": 402,
+        "end_offset": 407,
+        "start": 25.04,
+        "end": 25.52
+      },
+      {
+        "word": "location.",
+        "start_offset": 408,
+        "end_offset": 417,
+        "start": 25.52,
+        "end": 26.08
+      },
+      {
+        "word": "By",
+        "start_offset": 418,
+        "end_offset": 420,
+        "start": 26.24,
+        "end": 26.56
+      },
+      {
+        "word": "monitoring",
+        "start_offset": 421,
+        "end_offset": 431,
+        "start": 26.56,
+        "end": 27.12
+      },
+      {
+        "word": "the",
+        "start_offset": 432,
+        "end_offset": 435,
+        "start": 27.12,
+        "end": 27.28
+      },
+      {
+        "word": "movements",
+        "start_offset": 436,
+        "end_offset": 445,
+        "start": 27.28,
+        "end": 27.68
+      },
+      {
+        "word": "of",
+        "start_offset": 446,
+        "end_offset": 448,
+        "start": 27.68,
+        "end": 27.92
+      },
+      {
+        "word": "bodyguards",
+        "start_offset": 449,
+        "end_offset": 459,
+        "start": 27.92,
+        "end": 28.64
+      },
+      {
+        "word": "and",
+        "start_offset": 460,
+        "end_offset": 463,
+        "start": 28.64,
+        "end": 28.8
+      },
+      {
+        "word": "officials,",
+        "start_offset": 464,
+        "end_offset": 474,
+        "start": 28.8,
+        "end": 29.36
+      },
+      {
+        "word": "intelligence",
+        "start_offset": 475,
+        "end_offset": 487,
+        "start": 29.6,
+        "end": 30.32
+      },
+      {
+        "word": "agencies",
+        "start_offset": 488,
+        "end_offset": 496,
+        "start": 30.32,
+        "end": 30.88
+      },
+      {
+        "word": "were",
+        "start_offset": 497,
+        "end_offset": 501,
+        "start": 30.88,
+        "end": 31.04
+      },
+      {
+        "word": "able",
+        "start_offset": 502,
+        "end_offset": 506,
+        "start": 31.04,
+        "end": 31.28
+      },
+      {
+        "word": "to",
+        "start_offset": 507,
+        "end_offset": 509,
+        "start": 31.28,
+        "end": 31.44
+      },
+      {
+        "word": "build",
+        "start_offset": 510,
+        "end_offset": 515,
+        "start": 31.44,
+        "end": 31.68
+      },
+      {
+        "word": "up",
+        "start_offset": 516,
+        "end_offset": 518,
+        "start": 31.68,
+        "end": 31.84
+      },
+      {
+        "word": "a",
+        "start_offset": 519,
+        "end_offset": 520,
+        "start": 31.84,
+        "end": 32.0
+      },
+      {
+        "word": "pattern",
+        "start_offset": 521,
+        "end_offset": 528,
+        "start": 32.0,
+        "end": 32.32
+      },
+      {
+        "word": "of",
+        "start_offset": 529,
+        "end_offset": 531,
+        "start": 32.32,
+        "end": 32.56
+      },
+      {
+        "word": "life",
+        "start_offset": 532,
+        "end_offset": 536,
+        "start": 32.56,
+        "end": 32.96
+      },
+      {
+        "word": "to",
+        "start_offset": 537,
+        "end_offset": 539,
+        "start": 32.96,
+        "end": 33.2
+      },
+      {
+        "word": "predict",
+        "start_offset": 540,
+        "end_offset": 547,
+        "start": 33.2,
+        "end": 33.68
+      },
+      {
+        "word": "and",
+        "start_offset": 548,
+        "end_offset": 551,
+        "start": 33.68,
+        "end": 33.92
+      },
+      {
+        "word": "understand",
+        "start_offset": 552,
+        "end_offset": 562,
+        "start": 33.92,
+        "end": 34.56
+      },
+      {
+        "word": "activity,",
+        "start_offset": 563,
+        "end_offset": 572,
+        "start": 34.56,
+        "end": 35.12
+      },
+      {
+        "word": "waiting",
+        "start_offset": 573,
+        "end_offset": 580,
+        "start": 35.36,
+        "end": 35.76
+      },
+      {
+        "word": "for",
+        "start_offset": 581,
+        "end_offset": 584,
+        "start": 35.76,
+        "end": 36.0
+      },
+      {
+        "word": "that",
+        "start_offset": 585,
+        "end_offset": 589,
+        "start": 36.0,
+        "end": 36.16
+      },
+      {
+        "word": "perfect",
+        "start_offset": 590,
+        "end_offset": 597,
+        "start": 36.16,
+        "end": 36.72
+      },
+      {
+        "word": "moment",
+        "start_offset": 598,
+        "end_offset": 604,
+        "start": 36.72,
+        "end": 36.96
+      },
+      {
+        "word": "of",
+        "start_offset": 605,
+        "end_offset": 607,
+        "start": 36.96,
+        "end": 37.2
+      },
+      {
+        "word": "vulnerability.",
+        "start_offset": 608,
+        "end_offset": 622,
+        "start": 37.2,
+        "end": 38.16
+      },
+      {
+        "word": "There",
+        "start_offset": 623,
+        "end_offset": 628,
+        "start": 38.32,
+        "end": 38.56
+      },
+      {
+        "word": "was",
+        "start_offset": 629,
+        "end_offset": 632,
+        "start": 38.56,
+        "end": 38.72
+      },
+      {
+        "word": "a",
+        "start_offset": 633,
+        "end_offset": 634,
+        "start": 38.72,
+        "end": 38.8
+      },
+      {
+        "word": "clear",
+        "start_offset": 635,
+        "end_offset": 640,
+        "start": 38.8,
+        "end": 39.2
+      },
+      {
+        "word": "division",
+        "start_offset": 641,
+        "end_offset": 649,
+        "start": 39.2,
+        "end": 39.6
+      },
+      {
+        "word": "of",
+        "start_offset": 650,
+        "end_offset": 652,
+        "start": 39.6,
+        "end": 39.84
+      },
+      {
+        "word": "labor",
+        "start_offset": 653,
+        "end_offset": 658,
+        "start": 39.84,
+        "end": 40.24
+      },
+      {
+        "word": "during",
+        "start_offset": 659,
+        "end_offset": 665,
+        "start": 40.24,
+        "end": 40.48
+      },
+      {
+        "word": "the",
+        "start_offset": 666,
+        "end_offset": 669,
+        "start": 40.48,
+        "end": 40.56
+      },
+      {
+        "word": "mission,",
+        "start_offset": 670,
+        "end_offset": 678,
+        "start": 40.56,
+        "end": 40.96
+      },
+      {
+        "word": "with",
+        "start_offset": 679,
+        "end_offset": 683,
+        "start": 41.12,
+        "end": 41.36
+      },
+      {
+        "word": "Israel",
+        "start_offset": 684,
+        "end_offset": 690,
+        "start": 41.36,
+        "end": 41.84
+      },
+      {
+        "word": "focusing",
+        "start_offset": 691,
+        "end_offset": 699,
+        "start": 41.84,
+        "end": 42.4
+      },
+      {
+        "word": "on",
+        "start_offset": 700,
+        "end_offset": 702,
+        "start": 42.4,
+        "end": 42.56
+      },
+      {
+        "word": "strikes",
+        "start_offset": 703,
+        "end_offset": 710,
+        "start": 42.56,
+        "end": 43.04
+      },
+      {
+        "word": "to",
+        "start_offset": 711,
+        "end_offset": 713,
+        "start": 43.04,
+        "end": 43.28
+      },
+      {
+        "word": "hit",
+        "start_offset": 714,
+        "end_offset": 717,
+        "start": 43.28,
+        "end": 43.52
+      },
+      {
+        "word": "leadership",
+        "start_offset": 718,
+        "end_offset": 728,
+        "start": 43.52,
+        "end": 44.0
+      },
+      {
+        "word": "targets",
+        "start_offset": 729,
+        "end_offset": 736,
+        "start": 44.0,
+        "end": 44.56
+      },
+      {
+        "word": "while",
+        "start_offset": 737,
+        "end_offset": 742,
+        "start": 44.64,
+        "end": 44.88
+      },
+      {
+        "word": "the",
+        "start_offset": 743,
+        "end_offset": 746,
+        "start": 44.88,
+        "end": 45.04
+      },
+      {
+        "word": "US",
+        "start_offset": 747,
+        "end_offset": 749,
+        "start": 45.04,
+        "end": 45.44
+      },
+      {
+        "word": "handled",
+        "start_offset": 750,
+        "end_offset": 757,
+        "start": 45.52,
+        "end": 46.08
+      },
+      {
+        "word": "military",
+        "start_offset": 758,
+        "end_offset": 766,
+        "start": 46.08,
+        "end": 46.64
+      },
+      {
+        "word": "objectives.",
+        "start_offset": 767,
+        "end_offset": 778,
+        "start": 46.64,
+        "end": 47.36
+      },
+      {
+        "word": "When",
+        "start_offset": 779,
+        "end_offset": 783,
+        "start": 47.6,
+        "end": 47.92
+      },
+      {
+        "word": "the",
+        "start_offset": 784,
+        "end_offset": 787,
+        "start": 47.92,
+        "end": 48.08
+      },
+      {
+        "word": "window",
+        "start_offset": 788,
+        "end_offset": 794,
+        "start": 48.08,
+        "end": 48.4
+      },
+      {
+        "word": "of",
+        "start_offset": 795,
+        "end_offset": 797,
+        "start": 48.4,
+        "end": 48.64
+      },
+      {
+        "word": "opportunity",
+        "start_offset": 798,
+        "end_offset": 809,
+        "start": 48.64,
+        "end": 49.2
+      },
+      {
+        "word": "opened,",
+        "start_offset": 810,
+        "end_offset": 817,
+        "start": 49.2,
+        "end": 49.6
+      },
+      {
+        "word": "Israeli",
+        "start_offset": 818,
+        "end_offset": 825,
+        "start": 49.76,
+        "end": 50.4
+      },
+      {
+        "word": "jets",
+        "start_offset": 826,
+        "end_offset": 830,
+        "start": 50.4,
+        "end": 50.8
+      },
+      {
+        "word": "launched",
+        "start_offset": 831,
+        "end_offset": 839,
+        "start": 50.8,
+        "end": 51.2
+      },
+      {
+        "word": "a",
+        "start_offset": 840,
+        "end_offset": 841,
+        "start": 51.2,
+        "end": 51.28
+      },
+      {
+        "word": "massive",
+        "start_offset": 842,
+        "end_offset": 849,
+        "start": 51.28,
+        "end": 51.76
+      },
+      {
+        "word": "assault.",
+        "start_offset": 850,
+        "end_offset": 858,
+        "start": 51.76,
+        "end": 52.24
+      },
+      {
+        "word": "Reports",
+        "start_offset": 859,
+        "end_offset": 866,
+        "start": 52.4,
+        "end": 53.12
+      },
+      {
+        "word": "indicate",
+        "start_offset": 867,
+        "end_offset": 875,
+        "start": 53.12,
+        "end": 53.6
+      },
+      {
+        "word": "that",
+        "start_offset": 876,
+        "end_offset": 880,
+        "start": 53.6,
+        "end": 53.84
+      },
+      {
+        "word": "they",
+        "start_offset": 881,
+        "end_offset": 885,
+        "start": 53.84,
+        "end": 54.0
+      },
+      {
+        "word": "used",
+        "start_offset": 886,
+        "end_offset": 890,
+        "start": 54.0,
+        "end": 54.32
+      },
+      {
+        "word": "30",
+        "start_offset": 891,
+        "end_offset": 893,
+        "start": 54.32,
+        "end": 54.88
+      },
+      {
+        "word": "bombs",
+        "start_offset": 894,
+        "end_offset": 899,
+        "start": 54.88,
+        "end": 55.28
+      },
+      {
+        "word": "to",
+        "start_offset": 900,
+        "end_offset": 902,
+        "start": 55.28,
+        "end": 55.44
+      },
+      {
+        "word": "attack",
+        "start_offset": 903,
+        "end_offset": 909,
+        "start": 55.44,
+        "end": 55.76
+      },
+      {
+        "word": "the",
+        "start_offset": 910,
+        "end_offset": 913,
+        "start": 55.76,
+        "end": 55.92
+      },
+      {
+        "word": "compound",
+        "start_offset": 914,
+        "end_offset": 922,
+        "start": 55.92,
+        "end": 56.56
+      },
+      {
+        "word": "around",
+        "start_offset": 923,
+        "end_offset": 929,
+        "start": 56.56,
+        "end": 56.88
+      },
+      {
+        "word": "09:40",
+        "start_offset": 930,
+        "end_offset": 935,
+        "start": 56.88,
+        "end": 58.48
+      },
+      {
+        "word": "local",
+        "start_offset": 936,
+        "end_offset": 941,
+        "start": 58.48,
+        "end": 58.8
+      },
+      {
+        "word": "time,",
+        "start_offset": 942,
+        "end_offset": 947,
+        "start": 58.8,
+        "end": 59.12
+      },
+      {
+        "word": "aiming",
+        "start_offset": 948,
+        "end_offset": 954,
+        "start": 59.28,
+        "end": 59.68
+      },
+      {
+        "word": "for",
+        "start_offset": 955,
+        "end_offset": 958,
+        "start": 59.68,
+        "end": 59.84
+      },
+      {
+        "word": "an",
+        "start_offset": 959,
+        "end_offset": 961,
+        "start": 59.84,
+        "end": 60.0
+      },
+      {
+        "word": "underground",
+        "start_offset": 962,
+        "end_offset": 973,
+        "start": 60.0,
+        "end": 60.64
+      },
+      {
+        "word": "bunker.",
+        "start_offset": 974,
+        "end_offset": 981,
+        "start": 60.64,
+        "end": 61.2
+      },
+      {
+        "word": "The",
+        "start_offset": 982,
+        "end_offset": 985,
+        "start": 61.44,
+        "end": 61.68
+      },
+      {
+        "word": "strike",
+        "start_offset": 986,
+        "end_offset": 992,
+        "start": 61.68,
+        "end": 62.16
+      },
+      {
+        "word": "was",
+        "start_offset": 993,
+        "end_offset": 996,
+        "start": 62.16,
+        "end": 62.4
+      },
+      {
+        "word": "devastating.",
+        "start_offset": 997,
+        "end_offset": 1009,
+        "start": 62.4,
+        "end": 63.2
+      },
+      {
+        "word": "Three",
+        "start_offset": 1010,
+        "end_offset": 1015,
+        "start": 63.44,
+        "end": 63.84
+      },
+      {
+        "word": "senior",
+        "start_offset": 1016,
+        "end_offset": 1022,
+        "start": 63.84,
+        "end": 64.24
+      },
+      {
+        "word": "Iranian",
+        "start_offset": 1023,
+        "end_offset": 1030,
+        "start": 64.24,
+        "end": 64.88
+      },
+      {
+        "word": "defence",
+        "start_offset": 1031,
+        "end_offset": 1038,
+        "start": 64.88,
+        "end": 65.28
+      },
+      {
+        "word": "officials",
+        "start_offset": 1039,
+        "end_offset": 1048,
+        "start": 65.28,
+        "end": 65.84
+      },
+      {
+        "word": "have",
+        "start_offset": 1049,
+        "end_offset": 1053,
+        "start": 65.84,
+        "end": 66.0
+      },
+      {
+        "word": "been",
+        "start_offset": 1054,
+        "end_offset": 1058,
+        "start": 66.0,
+        "end": 66.16
+      },
+      {
+        "word": "confirmed",
+        "start_offset": 1059,
+        "end_offset": 1068,
+        "start": 66.16,
+        "end": 66.72
+      },
+      {
+        "word": "dead",
+        "start_offset": 1069,
+        "end_offset": 1073,
+        "start": 66.72,
+        "end": 67.12
+      },
+      {
+        "word": "by",
+        "start_offset": 1074,
+        "end_offset": 1076,
+        "start": 67.12,
+        "end": 67.36
+      },
+      {
+        "word": "Iran,",
+        "start_offset": 1077,
+        "end_offset": 1082,
+        "start": 67.36,
+        "end": 67.84
+      },
+      {
+        "word": "including",
+        "start_offset": 1083,
+        "end_offset": 1092,
+        "start": 68.0,
+        "end": 68.4
+      },
+      {
+        "word": "the",
+        "start_offset": 1093,
+        "end_offset": 1096,
+        "start": 68.4,
+        "end": 68.56
+      },
+      {
+        "word": "Defence",
+        "start_offset": 1097,
+        "end_offset": 1104,
+        "start": 68.56,
+        "end": 69.04
+      },
+      {
+        "word": "Council",
+        "start_offset": 1105,
+        "end_offset": 1112,
+        "start": 69.04,
+        "end": 69.44
+      },
+      {
+        "word": "secretary",
+        "start_offset": 1113,
+        "end_offset": 1122,
+        "start": 69.6,
+        "end": 70.24
+      },
+      {
+        "word": "and",
+        "start_offset": 1123,
+        "end_offset": 1126,
+        "start": 70.4,
+        "end": 70.56
+      },
+      {
+        "word": "the",
+        "start_offset": 1127,
+        "end_offset": 1130,
+        "start": 70.56,
+        "end": 70.8
+      },
+      {
+        "word": "IRGC",
+        "start_offset": 1131,
+        "end_offset": 1135,
+        "start": 70.8,
+        "end": 71.76
+      },
+      {
+        "word": "commander.",
+        "start_offset": 1136,
+        "end_offset": 1146,
+        "start": 71.76,
+        "end": 72.4
+      },
+      {
+        "word": "While",
+        "start_offset": 1147,
+        "end_offset": 1152,
+        "start": 72.56,
+        "end": 72.96
+      },
+      {
+        "word": "this",
+        "start_offset": 1153,
+        "end_offset": 1157,
+        "start": 72.96,
+        "end": 73.2
+      },
+      {
+        "word": "is",
+        "start_offset": 1158,
+        "end_offset": 1160,
+        "start": 73.2,
+        "end": 73.36
+      },
+      {
+        "word": "a",
+        "start_offset": 1161,
+        "end_offset": 1162,
+        "start": 73.36,
+        "end": 73.52
+      },
+      {
+        "word": "massive",
+        "start_offset": 1163,
+        "end_offset": 1170,
+        "start": 73.52,
+        "end": 73.92
+      },
+      {
+        "word": "blow,",
+        "start_offset": 1171,
+        "end_offset": 1176,
+        "start": 73.92,
+        "end": 74.32
+      },
+      {
+        "word": "the",
+        "start_offset": 1177,
+        "end_offset": 1180,
+        "start": 74.48,
+        "end": 74.72
+      },
+      {
+        "word": "future",
+        "start_offset": 1181,
+        "end_offset": 1187,
+        "start": 74.72,
+        "end": 75.04
+      },
+      {
+        "word": "remains",
+        "start_offset": 1188,
+        "end_offset": 1195,
+        "start": 75.04,
+        "end": 75.6
+      },
+      {
+        "word": "uncertain.",
+        "start_offset": 1196,
+        "end_offset": 1206,
+        "start": 75.6,
+        "end": 76.32
+      },
+      {
+        "word": "Iran",
+        "start_offset": 1207,
+        "end_offset": 1211,
+        "start": 76.64,
+        "end": 77.12
+      },
+      {
+        "word": "had",
+        "start_offset": 1212,
+        "end_offset": 1215,
+        "start": 77.12,
+        "end": 77.36
+      },
+      {
+        "word": "been",
+        "start_offset": 1216,
+        "end_offset": 1220,
+        "start": 77.36,
+        "end": 77.6
+      },
+      {
+        "word": "prepared",
+        "start_offset": 1221,
+        "end_offset": 1229,
+        "start": 77.6,
+        "end": 78.08
+      },
+      {
+        "word": "for",
+        "start_offset": 1230,
+        "end_offset": 1233,
+        "start": 78.08,
+        "end": 78.24
+      },
+      {
+        "word": "this",
+        "start_offset": 1234,
+        "end_offset": 1238,
+        "start": 78.24,
+        "end": 78.48
+      },
+      {
+        "word": "possibility",
+        "start_offset": 1239,
+        "end_offset": 1250,
+        "start": 78.48,
+        "end": 78.96
+      },
+      {
+        "word": "though,",
+        "start_offset": 1251,
+        "end_offset": 1258,
+        "start": 79.04,
+        "end": 79.36
+      },
+      {
+        "word": "with",
+        "start_offset": 1259,
+        "end_offset": 1263,
+        "start": 79.44,
+        "end": 79.76
+      },
+      {
+        "word": "reports",
+        "start_offset": 1264,
+        "end_offset": 1271,
+        "start": 79.76,
+        "end": 80.4
+      },
+      {
+        "word": "that",
+        "start_offset": 1272,
+        "end_offset": 1276,
+        "start": 80.4,
+        "end": 80.64
+      },
+      {
+        "word": "the",
+        "start_offset": 1277,
+        "end_offset": 1280,
+        "start": 80.64,
+        "end": 80.8
+      },
+      {
+        "word": "plans",
+        "start_offset": 1281,
+        "end_offset": 1286,
+        "start": 80.8,
+        "end": 81.2
+      },
+      {
+        "word": "for",
+        "start_offset": 1287,
+        "end_offset": 1290,
+        "start": 81.2,
+        "end": 81.44
+      },
+      {
+        "word": "succession",
+        "start_offset": 1291,
+        "end_offset": 1301,
+        "start": 81.44,
+        "end": 82.08
+      },
+      {
+        "word": "had",
+        "start_offset": 1302,
+        "end_offset": 1305,
+        "start": 82.08,
+        "end": 82.32
+      },
+      {
+        "word": "already",
+        "start_offset": 1306,
+        "end_offset": 1313,
+        "start": 82.32,
+        "end": 82.72
+      },
+      {
+        "word": "been",
+        "start_offset": 1314,
+        "end_offset": 1318,
+        "start": 82.72,
+        "end": 82.88
+      },
+      {
+        "word": "put",
+        "start_offset": 1319,
+        "end_offset": 1322,
+        "start": 82.88,
+        "end": 83.12
+      },
+      {
+        "word": "in",
+        "start_offset": 1323,
+        "end_offset": 1325,
+        "start": 83.12,
+        "end": 83.36
+      },
+      {
+        "word": "place",
+        "start_offset": 1326,
+        "end_offset": 1331,
+        "start": 83.36,
+        "end": 83.68
+      },
+      {
+        "word": "for",
+        "start_offset": 1332,
+        "end_offset": 1335,
+        "start": 83.68,
+        "end": 83.92
+      },
+      {
+        "word": "its",
+        "start_offset": 1336,
+        "end_offset": 1339,
+        "start": 83.92,
+        "end": 84.16
+      },
+      {
+        "word": "top",
+        "start_offset": 1340,
+        "end_offset": 1343,
+        "start": 84.16,
+        "end": 84.4
+      },
+      {
+        "word": "leadership.",
+        "start_offset": 1344,
+        "end_offset": 1355,
+        "start": 84.4,
+        "end": 85.04
+      }
+    ],
+    "segment": [
+      {
+        "text": "In a stunning turn of events, the attack that killed Iran's Supreme Leader Ayatollah Ali Khamenei happened in the middle of the morning, catching the regime off guard.",
+        "start": 0.16,
+        "end": 10.24
+      },
+      {
+        "text": "This wasn't a random strike; it was the result of months of planning.",
+        "start": 10.48,
+        "end": 14.88
+      },
+      {
+        "text": "President Trump noted that Khamenei was unable to avoid our intelligence and highly sophisticated tracking systems, which allowed the US and Israel to pinpoint his exact location.",
+        "start": 15.12,
+        "end": 26.08
+      },
+      {
+        "text": "By monitoring the movements of bodyguards and officials, intelligence agencies were able to build up a pattern of life to predict and understand activity, waiting for that perfect moment of vulnerability.",
+        "start": 26.24,
+        "end": 38.16
+      },
+      {
+        "text": "There was a clear division of labor during the mission, with Israel focusing on strikes to hit leadership targets while the US handled military objectives.",
+        "start": 38.32,
+        "end": 47.36
+      },
+      {
+        "text": "When the window of opportunity opened, Israeli jets launched a massive assault.",
+        "start": 47.6,
+        "end": 52.24
+      },
+      {
+        "text": "Reports indicate that they used 30 bombs to attack the compound around 09:40 local time, aiming for an underground bunker.",
+        "start": 52.4,
+        "end": 61.2
+      },
+      {
+        "text": "The strike was devastating.",
+        "start": 61.44,
+        "end": 63.2
+      },
+      {
+        "text": "Three senior Iranian defence officials have been confirmed dead by Iran, including the Defence Council secretary and the IRGC commander.",
+        "start": 63.44,
+        "end": 72.4
+      },
+      {
+        "text": "While this is a massive blow, the future remains uncertain.",
+        "start": 72.56,
+        "end": 76.32
+      },
+      {
+        "text": "Iran had been prepared for this possibility though, with reports that the plans for succession had already been put in place for its top leadership.",
+        "start": 76.64,
+        "end": 85.04
+      }
+    ]
+  },
+  "engine": "parakeet"
+}
