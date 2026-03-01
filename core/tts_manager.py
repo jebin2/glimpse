@@ -175,11 +175,17 @@ class TTSManager:
             current_word_idx = 0
             for i, lseg in enumerate(logic_segments):
                 # Clean words for safer matching
-                lseg_words = [re.sub(r'[^a-zA-Z0-9]', '', w).lower() for w in lseg['text'].split() if w.strip()]
+                lseg_words = [w for w in (re.sub(r'[^a-zA-Z0-9]', '', t).lower() for t in lseg['text'].split() if t.strip()) if w]
                 if not lseg_words: continue
                 
-                # Find start
-                start_time = words[current_word_idx]['start'] if current_word_idx < len(words) else 0.0
+                # Find start — for key_point segments, use the PREVIOUS word's
+                # start time so the scroll/highlight animation (~400ms) begins
+                # before the narration reaches the anchor text, keeping the
+                # visual transition in sync with the audio.
+                if lseg['kp_id'] and current_word_idx > 0:
+                    start_time = words[current_word_idx - 1]['start']
+                else:
+                    start_time = words[current_word_idx]['start'] if current_word_idx < len(words) else 0.0
                 
                 # Advance pointer by word count
                 matched_count = 0
