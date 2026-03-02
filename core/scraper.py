@@ -1,7 +1,6 @@
 import os
 import json
 import time
-from dataclasses import dataclass
 from typing import Optional
 
 from browser_manager import BrowserManager
@@ -19,22 +18,18 @@ from PIL import Image, ImageDraw, ImageFont
 from core.site_handlers import apply_site_handlers
 from custom_logger import logger_config
 
-@dataclass
-class PageContext:
-    manager: BrowserManager
-    page: any # playwright Page
-    full_height: int
-    viewport_height: int = 667
-
 class Scraper:
     def __init__(self, headless: bool = True):
         self.config = BrowserConfig(
             headless=headless,
             docker_name="glimpse_neko",
-            extra_args=[
-                "--window-size=375,667", 
-                "--hide-scrollbars"
-            ]
+            browser_flags=(
+                "--disable-gpu "
+                "--no-sandbox --no-zygote --disable-extensions "
+                "--window-size=540,960 --no-first-run "
+                "--disable-session-crashed-bubble --disable-infobars "
+                "--disable-dev-shm-usage --hide-scrollbars"
+            )
         )
         self.manager = BrowserManager(self.config)
 
@@ -44,24 +39,14 @@ class Scraper:
         """
         logger_config.info(f"[1/5] Starting persistent browser session (Container: {self.config.docker_name})...")
         self.config.url = url
-        self.config.additionl_docker_flag = f"-v {tmpdir}:{tmpdir}"
+        self.config.additionl_docker_flag = f"-v {tmpdir}:{tmpdir} -e NEKO_DESKTOP_SCREEN=540x960@30"
         
-        page = self.manager.start(record_video_dir=tmpdir, record_video_size={"width": 375, "height": 667})
-        page.set_viewport_size({"width": 375, "height": 667})
-        
-        # Reload the page to ensure responsive designs adapt to the new viewport size,
-        # and to stay on the same page instead of navigating back if there was a redirect.
-        try:
-            logger_config.info(f"[1/5] Reloading page: {url}")
-            page.reload(wait_until="domcontentloaded", timeout=45000)
-            logger_config.info(f"[1/5] Page reloaded successfully")
-        except Exception as e:
-            logger_config.warning(f"Error or timeout during reload: {e}")
-            
-        time.sleep(2) 
+        page = self.manager.start(record_video_dir=tmpdir, record_video_size={"width": 540, "height": 960})
+        page.set_viewport_size({"width": 540, "height": 960})
+        time.sleep(2)
         
         apply_site_handlers(page, url)
-        remove_ads(page)
+        # remove_ads(page)
         
         body_text = page.inner_text("body")
         return page, body_text

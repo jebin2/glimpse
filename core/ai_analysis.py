@@ -31,7 +31,7 @@ class AIAnalyzer:
         
         if self.api_key:
             self.client = genai.Client(api_key=self.api_key)
-        self.model = "gemini-3-flash-preview" # Using the preview model requested
+        self.model = "gemini-flash-latest" # Using the preview model requested
         
     def _parse_plan_data(self, data: dict) -> NarrationPlan:
         script = data.get("narration_script", "")

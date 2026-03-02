@@ -24,50 +24,70 @@ def handle_nytimes(page: Page):
     except Exception as e:
         logger_config.error(f"Error handling NYTimes cookie popup: {e}")
 
+def _ndtv_force_unhide(page: Page):
+    """
+    Aggressively remove all height/overflow constraints on NDTV article containers.
+    Targets both known class names and a broad sweep of any element whose inline
+    max-height or overflow:hidden is capping the article.
+    """
+    page.evaluate("""
+        // Known NDTV article container selectors
+        const selectors = [
+            '.Art-dtl', '.sp-cn', '.Art-exp_bt-wr', '.js-ad-section',
+            '.ins_storybody', '.sp-cn-lst', '.story__content',
+            '.article__body', '.article-body', '.content-area',
+            '[class^="Art-"]', '[class*=" Art-"]'
+        ];
+        selectors.forEach(sel => {
+            try {
+                document.querySelectorAll(sel).forEach(node => {
+                    node.style.setProperty('max-height', 'none', 'important');
+                    node.style.setProperty('height', 'auto', 'important');
+                    node.style.setProperty('overflow', 'visible', 'important');
+                    node.style.setProperty('opacity', '1', 'important');
+                    node.style.setProperty('visibility', 'visible', 'important');
+                    node.hidden = false;
+                });
+            } catch(e) {}
+        });
+        // Hide the expand-button wrapper so it doesn't obscure content
+        document.querySelectorAll('.Art-exp_bt-wr').forEach(el => {
+            el.style.setProperty('display', 'none', 'important');
+        });
+    """)
+
 def handle_ndtv(page: Page):
     try:
-        logger_config.info("Looking for NDTV 'Read Full Article' / 'Show Full Article' button...", seconds=5)
-        
-        # In mobile view, NDTV often has a 'Show full article' button that hides content.
-        # We look for nodes containing these texts explicitly.
-        # Iterate over potential elements since standard locators are timing out or missing it.
-        found = False
-        elements = page.query_selector_all("a, span, div.Art-exp_bt-lk")
-        for el in elements:
-            try:
-                text = el.inner_text().strip().lower()
-                if "show full article" in text or "read full article" in text or "read full story" in text:
-                    el.scroll_into_view_if_needed()
-                    time.sleep(1)
-                    # 1. Try native JS click on the element
-                    page.evaluate("node => { try { node.click(); } catch(e) {} }", el)
-                    
-                    # 2. Force CSS unhide as a brutal fallback
-                    page.evaluate("""
-                        document.querySelectorAll('.Art-dtl, .sp-cn, .Art-exp_bt-wr, .js-ad-section').forEach(node => {
-                            node.style.maxHeight = 'none';
-                            node.style.height = 'auto';
-                            node.style.overflow = 'visible';
-                            node.style.display = 'block';
-                        });
-                        const expWrapper = document.querySelector('.Art-exp_bt-wr');
-                        if (expWrapper) expWrapper.style.display = 'none';
-                    """)
-                    
-                    logger_config.info(f"Clicked NDTV 'Read Full Article' button via JS & CSS force. (Text: {text})")
-                    found = True
-                    time.sleep(1)
-                    page.evaluate("window.scrollTo(0, 0)")
-                    time.sleep(2)
-                    break
-            except Exception:
-                continue
-                
-        if not found:
-            logger_config.debug("No NDTV 'Read Full Article' button found; assuming full text.")
-            
+        logger_config.info("Handling NDTV: expanding full article content...")
+
+        # Step 1: Try to click the expand button via its known CSS selector.
+        # Use Playwright's native .click() (not a JS click) so NDTV's mouse-event
+        # listeners actually fire and their JS unhides the content properly.
+        clicked = False
+        try:
+            btn = page.wait_for_selector('.Art-exp_bt-lk', state='visible', timeout=5000)
+            if btn:
+                btn.scroll_into_view_if_needed()
+                time.sleep(0.3)
+                btn.click()
+                logger_config.info("Clicked NDTV expand button (.Art-exp_bt-lk)")
+                clicked = True
+                time.sleep(1)
+        except Exception as e:
+            logger_config.debug(f"NDTV expand button not found via selector: {e}")
+
+        # Step 2: CSS force-unhide always runs — covers both the case where the
+        # button click succeeded (belt-and-suspenders) and where no button exists.
+        _ndtv_force_unhide(page)
+
+        if not clicked:
+            logger_config.debug("No NDTV expand button found; CSS force applied as sole method.")
+
+        page.evaluate("window.scrollTo(0, 0)")
+        time.sleep(1)
+
     except Exception as e:
-        logger_config.error(f"Error handling NDTV full article button: {e}")
+        logger_config.error(f"Error handling NDTV full article: {e}")
 
 # Registry of domain to handler functions
 SITE_HANDLERS = {

@@ -34,7 +34,7 @@ class TTSManager:
         self.api_key = os.environ.get("GEMINI_API_KEY", "").split(",")[0]
         if self.api_key:
             self.client = genai.Client(api_key=self.api_key)
-        self.model = "gemini-3-flash-preview"
+        self.model = "gemini-flash-latest"
 
     def _fix_stt_spelling(self, stt_json_path: str, original_script: str):
         """

@@ -1,53 +1,53 @@
 {
-  "narration_script": "In a stunning turn of events, the attack that killed Iran's Supreme Leader Ayatollah Ali Khamenei happened in the middle of the morning, catching the regime off guard. This wasn't a random strike; it was the result of months of planning. President Trump noted that Khamenei was unable to avoid our intelligence and highly sophisticated tracking systems, which allowed the US and Israel to pinpoint his exact location. By monitoring the movements of bodyguards and officials, intelligence agencies were able to build up a pattern of life to predict and understand activity, waiting for that perfect moment of vulnerability. There was a clear division of labor during the mission, with Israel focusing on strikes to hit leadership targets while the US handled military objectives. When the window of opportunity opened, Israeli jets launched a massive assault. Reports indicate that they used 30 bombs to attack the compound around 09:40 local time, aiming for an underground bunker. The strike was devastating. Three senior Iranian defence officials have been confirmed dead by Iran, including the Defence Council secretary and the IRGC commander. While this is a massive blow, the future remains uncertain. Iran had been prepared for this possibility though, with reports that the plans for succession had already been put in place for its top leadership.",
+  "narration_script": "Iran has entered a state of survival following the death of Supreme Leader Ayatollah Ali Khamenei in a series of targeted airstrikes. The 86-year-old cleric was killed after decades of trading threats and missiles with Israel and the United States. Satellite imagery confirms the destruction of his secure compound in downtown Tehran, now reduced to a gray mass. While the strike marks the end of an era for a nation that has known only one leader for forty years, the Islamic Republic\u2019s system of rule remains functional. Security has been tightened across major cities as volunteer paramilitaries and armed police patrol the streets to prevent potential uprisings. Despite calls from the West for a popular revolt, ordinary Iranians appear to be prioritizing safety over civil unrest. For now, a temporary council consisting of the heads of the judiciary, legislature, and executive will govern the country according to the constitution. Experts suggest the Islamic Revolutionary Guard Corps is poised to seize even greater political and economic influence during this transition. The leadership vacuum also raises urgent questions regarding Iran\u2019s nuclear policy and its long-standing religious edict against weaponization. With Khamenei gone, internal voices seeking greater flexibility in the country's pursuit of deterrence may finally gain traction. Internationally, the assassination has drawn sharp condemnation from China and Russia, while the region braces for the seismic consequences of this power shift. Khamenei\u2019s legacy will ultimately be defined by his iron fist and a four-decade fixation on challenging Western interests.",
   "key_points": [
     {
       "id": 1,
-      "label": "Morning Strike Timing",
-      "excerpt": "The attack that killed Iran's Supreme Leader Ayatollah Ali Khamenei came not in the middle of the night, as might have been expected, but in the middle of the morning.",
-      "script_anchor": "attack that killed Iran's Supreme Leader Ayatollah Ali Khamenei happened in the middle of the morning",
+      "label": "Khamenei Killed in Airstrikes",
+      "excerpt": "The 86-year-old cleric was killed after decades of trading threats and, more recently, missiles with Israel and the US.",
+      "script_anchor": "The 86-year-old cleric was killed after decades of trading threats and missiles with Israel and the United States.",
       "position_hint": "early"
     },
     {
       "id": 2,
-      "label": "Sophisticated Tracking Systems",
-      "excerpt": "He was unable to avoid our intelligence and highly sophisticated tracking systems.",
-      "script_anchor": "unable to avoid our intelligence and highly sophisticated tracking systems",
+      "label": "Tehran Compound Destroyed",
+      "excerpt": "Satellite images showed the secure compound in downtown Tehran where his residence and offices had been, reduced to a gray mass.",
+      "script_anchor": "reduced to a gray mass.",
       "position_hint": "early"
     },
     {
       "id": 3,
-      "label": "Pattern of Life Analysis",
-      "excerpt": "Over the long term, this can help build up a \"pattern of life\" to predict and understand activity as well as search for moments of vulnerability.",
-      "script_anchor": "build up a pattern of life to predict and understand activity",
+      "label": "Security Forces Tighten Control",
+      "excerpt": "Security in towns and cities across the country has been tightened with reports from residents in the capital Tehran of large numbers of volunteer paramilitaries and armed police in the streets.",
+      "script_anchor": "volunteer paramilitaries and armed police patrol the streets",
       "position_hint": "middle"
     },
     {
       "id": 4,
-      "label": "US-Israeli Division of Labor",
-      "excerpt": "The signs are that there is a division of labour with Israel focusing on strikes to hit leadership targets and the US more on military targets.",
-      "script_anchor": "division of labor during the mission, with Israel focusing on strikes to hit leadership targets",
+      "label": "Constitutional Council Takes Power",
+      "excerpt": "In the short term, Iran will be governed according to the constitution. It will be governed by a council made up of the heads of the judiciary, the legislature, and the executive,",
+      "script_anchor": "council consisting of the heads of the judiciary, legislature, and executive",
       "position_hint": "middle"
     },
     {
       "id": 5,
-      "label": "Massive Compound Bombardment",
-      "excerpt": "When the decision was taken, Israeli jets are reported to have used 30 bombs to attack the compound around 09:40 local time.",
-      "script_anchor": "used 30 bombs to attack the compound around 09:40 local time",
+      "label": "IRGC Influence Expected to Grow",
+      "excerpt": "it's likely that the IRGC - the powerful wing of Iran's armed forces originally designed to protect the regime and its supreme leader - will assume much more power",
+      "script_anchor": "Islamic Revolutionary Guard Corps is poised to seize even greater political and economic influence",
       "position_hint": "middle"
     },
     {
       "id": 6,
-      "label": "Senior Officials Confirmed Dead",
-      "excerpt": "Three senior Iranian defence officials have been confirmed dead by Iran, including Defence Council secretary Ali Shamkhani, Defence Minister Brig Gen Aziz Nasirzadeh and IRGC commander Gen Mohammad Pakpour.",
-      "script_anchor": "Three senior Iranian defence officials have been confirmed dead by Iran",
+      "label": "Nuclear Doctrine Shift Possible",
+      "excerpt": "With Khamenei's demise, voices that have sought greater flexibility in Iran's pursuit of deterrence may gain new strength.",
+      "script_anchor": "voices seeking greater flexibility in the country's pursuit of deterrence",
       "position_hint": "late"
     },
     {
       "id": 7,
-      "label": "Iranian Succession Plans",
-      "excerpt": "Iran had been prepared for this possibility though, with reports that the plans for succession for not just Khamenei, but also an array of senior officials",
-      "script_anchor": "Iran had been prepared for this possibility though, with reports that the plans for succession",
+      "label": "Legacy of Brutality",
+      "excerpt": "\"Khamenei's legacy will be one of brutality,\" said Dina Esfandiary, geo-economics analyst at Bloomberg Economics, \"people will remember his iron fist in crushing dissent.\"",
+      "script_anchor": "iron fist and a four-decade fixation on challenging Western interests.",
       "position_hint": "late"
     }
   ]

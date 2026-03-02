@@ -229,49 +229,6 @@ def scroll_continuous(page: Page, pixels_per_second: float, duration_seconds: fl
     """
     page.evaluate(js_code)
 
-
-def capture_viewport_frames(
-    page: Page, 
-    duration_sec: float, 
-    fps: int, 
-    output_dir: str, 
-    start_frame_counter: int = 0,
-    viewport_width: int = 375,
-    viewport_height: int = 667,
-    frame_callback: Optional[Callable[[str], None]] = None
-) -> int:
-    """
-    Captures screenshots frame by frame at the requested framerate and duration.
-    Optionally calls a frame_callback(filename) to process/overlay items on the frame.
-    Returns the new current frame counter.
-    """
-    total_frames = int(duration_sec * fps)
-    current_counter = start_frame_counter
-
-    for _ in range(total_frames):
-        start_time = time.perf_counter()
-        screenshot_path = f"{output_dir}/frame_{current_counter:06d}.jpg"
-        
-        # Capture as high-speed jpeg
-        page.screenshot(path=screenshot_path, type="jpeg", quality=80)
-
-        if current_counter % 10 == 0:
-            logger_config.debug(f"Captured {current_counter - start_frame_counter + 1}/{total_frames} frames for current segment...", overwrite=True)
-
-        # Apply any overlays or watermarks
-        if frame_callback:
-            frame_callback(screenshot_path)
-
-        current_counter += 1
-        
-        # Attempt to keep timing roughly consistent
-        elapsed = time.perf_counter() - start_time
-        sleep_time = max(0, (1.0 / fps) - elapsed)
-        if sleep_time > 0:
-            time.sleep(sleep_time)
-
-    return current_counter
-
 def inject_lower_third(page: Page, name: str, title: str, accent_color: str = '#E63946'):
     """
     Injects a stylish animated lower-third overlay into the DOM.
@@ -366,11 +323,7 @@ def remove_ads(page: Page):
         // List of common ad-related class/ID substrings and specific selectors
         const selectors = [
             '[data-component="advertisement-block"]',
-            '.ad-art_wap',
-            '.adsbygoogle',
-            '[id^="google_ads_"]',
-            '[id^="div-gpt-ad_"]',
-            'ins.adsbygoogle'
+            '.ad-art_wap'
         ];
         
         const style = document.createElement('style');
