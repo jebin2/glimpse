@@ -365,25 +365,12 @@ def remove_ads(page: Page):
     (function() {
         // List of common ad-related class/ID substrings and specific selectors
         const selectors = [
-            '[id^="div-gpt-ad"]',
-            '[id*="google_ads"]',
-            '[class*="ad-container"]',
-            '[class*="ad-slot"]',
-            '[class*="-ad-"]',
-            '[class^="ad-"]',
-            '[id^="ad-"]',
-            '.OUTBRAIN',
-            '.taboola',
-            'iframe[src*="doubleclick.net"]',
-            'iframe[src*="googlesyndication.com"]',
-            // Add BBC specific prominent ad slots
-            '[class*="bbc-ad"]',
-            '[data-hero-ad]',
             '[data-component="advertisement-block"]',
-            // Add NYT specific
-            '#story-ad',
-            '.ad',
-            '.advertisement'
+            '.ad-art_wap',
+            '.adsbygoogle',
+            '[id^="google_ads_"]',
+            '[id^="div-gpt-ad_"]',
+            'ins.adsbygoogle'
         ];
         
         const style = document.createElement('style');

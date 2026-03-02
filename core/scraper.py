@@ -49,7 +49,15 @@ class Scraper:
         page = self.manager.start(record_video_dir=tmpdir, record_video_size={"width": 375, "height": 667})
         page.set_viewport_size({"width": 375, "height": 667})
         
-        page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        # Reload the page to ensure responsive designs adapt to the new viewport size,
+        # and to stay on the same page instead of navigating back if there was a redirect.
+        try:
+            logger_config.info(f"[1/5] Reloading page: {url}")
+            page.reload(wait_until="domcontentloaded", timeout=45000)
+            logger_config.info(f"[1/5] Page reloaded successfully")
+        except Exception as e:
+            logger_config.warning(f"Error or timeout during reload: {e}")
+            
         time.sleep(2) 
         
         apply_site_handlers(page, url)

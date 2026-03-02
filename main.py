@@ -19,12 +19,17 @@ def main():
     # Load .env variables
     load_dotenv()
     
+    import time
+    timestamp = str(int(time.time()))
     slug = slugify(args.article_url)
     output_path = args.output if args.output else f"output_{slug}.mp4"
-    tmpdir = f"/tmp/atv_{slug}"
+    tmpdir = f"/tmp/atv_{slug}_{timestamp}"
     
     os.makedirs(tmpdir, exist_ok=True)
-    os.chmod(tmpdir, 0o777) # Ensure Docker container user can write WebM here
+    try:
+        os.chmod(tmpdir, 0o777) # Ensure Docker container user can write WebM here
+    except PermissionError:
+        logger_config.warning(f"Could not chmod {tmpdir}. Will try to continue anyway.")
     
     logger_config.info(f"--- Article-to-Video Workflow ---")
     logger_config.info(f"URL: {args.article_url}")
