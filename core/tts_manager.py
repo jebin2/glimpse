@@ -99,7 +99,7 @@ class TTSManager:
             
         full_audio_path = os.path.join(tmpdir, "narration_full.wav")
         test_audio_path = "test_data/narration_full.wav"
-        stt_json_path = f"{full_audio_path}.json"
+        stt_json_path = os.path.splitext(full_audio_path)[0] + ".json"
         test_stt_path = "test_data/narration_full.wav.json"
 
         # 1. Generate Voice Audio (Single Track)
@@ -121,8 +121,8 @@ class TTSManager:
         # 2. Transcribe for Alignment
         if not os.path.exists(stt_json_path):
             logger_config.info("Running STT on full audio...")
-            success = self.stt_client.transcribe(full_audio_path)
-            if not success:
+            stt_json_path = self.stt_client.transcribe(full_audio_path)
+            if not stt_json_path:
                 logger_config.warning("STT transcription failed. Timings will be heavily estimated.")
 
         # 3. Force-match STT JSON to Original Script via Gemini
