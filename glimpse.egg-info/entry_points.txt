@@ -1,0 +1,2 @@
+[console_scripts]
+glimpse = main:main

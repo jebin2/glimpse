@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: glimpse
+Version: 0.1.0
+Summary: Article-to-Video CLI Generator
+Requires-Python: >=3.10
+Requires-Dist: google-genai>=0.1.2
+Requires-Dist: requests>=2.31.0
+Requires-Dist: pydub>=0.25.1
+Requires-Dist: mutagen>=1.47.0
+Requires-Dist: Pillow>=10.0.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: custom_logger @ git+https://github.com/jebin2/custom_logger.git
+Requires-Dist: browser_manager @ git+https://github.com/jebin2/browser_manager.git
+Requires-Dist: jebin_lib @ git+https://github.com/jebin2/lib.git
