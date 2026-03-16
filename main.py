@@ -8,6 +8,7 @@ import glob as glob_module
 
 import jebin_lib.merge_audio as merge_audio
 from jebin_lib import normalize_loudness
+from pydub import AudioSegment
 from glimpse.core.scraper import Scraper
 from glimpse.core.ai_analysis import AIAnalyzer
 from glimpse.core.tts_manager import TTSManager
@@ -65,6 +66,19 @@ def main():
                 merged_path = os.path.join(tmpdir, "narration_with_bg.wav")
                 logger_config.info(f"Merging bg music: {os.path.basename(bg_path)}")
                 merge_audio.process(audio_path, bg_path, merged_path)
+
+                # Extend merged audio with 2s of continuing bg music (fade out)
+                # so the summary card has music instead of silence
+                TAIL_MS = 2000
+                merged_audio = AudioSegment.from_file(merged_path)
+                bg_audio = AudioSegment.from_file(bg_path)
+                pos_ms = len(merged_audio) % len(bg_audio)
+                tail = bg_audio[pos_ms:pos_ms + TAIL_MS]
+                if len(tail) < TAIL_MS:
+                    tail = tail + bg_audio[:TAIL_MS - len(tail)]
+                tail = tail.apply_gain(-12).fade_out(1500)
+                (merged_audio + tail).export(merged_path, format="wav")
+
                 audio_path = merged_path
             else:
                 logger_config.warning("No bg music files found, skipping merge.")
@@ -96,7 +110,8 @@ def main():
             if not audio_path or not os.path.exists(audio_path):
                 audio_path = os.path.join(tmpdir, "narration_full.wav")
                 
-            total_duration = audio_segments[-1].end_time if audio_segments else 0
+            # +2s for summary card (bg music tail appended to audio covers this)
+            total_duration = (audio_segments[-1].end_time if audio_segments else 0) + 2.0
             assembler.assemble_video(webm_path, audio_path, output_path, total_duration, start_offset)
 
             # PASS 6: Loudness normalization (EBU R128, -14 LUFS for YouTube Shorts)

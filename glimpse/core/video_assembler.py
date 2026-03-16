@@ -50,7 +50,6 @@ class VideoAssembler:
             # Codecs
             "-c:v", "libx264", "-preset", "fast", "-crf", "23",
             "-c:a", "aac", "-b:a", "128k",
-            "-shortest", 
             output_path
         ]
         

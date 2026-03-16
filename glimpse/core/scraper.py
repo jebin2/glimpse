@@ -14,6 +14,7 @@ from glimpse.core.page_actions import (
     remove_ads,
     inject_headline_card,
     inject_progress_bar,
+    inject_summary_card,
     trigger_keypoint_transition
 )
 from PIL import Image, ImageDraw, ImageFont
@@ -94,8 +95,15 @@ class Scraper:
             actual_start = time.perf_counter() - start_wall_time
             drift_ms = (actual_start - segment.start_time) * 1000
 
+            duration = segment.end_time - segment.start_time
+            flag = " ⚠ LONG" if duration > 8 else ""
+            logger_config.info(
+                f"[seg {segment.segment_index:02d}] {segment.type:<10} | "
+                f"{segment.start_time:6.2f}s → {segment.end_time:6.2f}s | "
+                f"dur: {duration:.2f}s{flag} | drift: {drift_ms:.1f}ms"
+            )
+
             if segment.type == "key_point":
-                logger_config.debug(f"TRIGGER [{segment.segment_index}]: KP {segment.key_point_id} | Drift: {drift_ms:.1f}ms")
                 kp = next((k for k in narration_plan.key_points if k.id == segment.key_point_id), None)
                 if kp:
                     accent_color = lt_colors[color_idx % len(lt_colors)]
@@ -106,9 +114,13 @@ class Scraper:
             while (time.perf_counter() - start_wall_time) < segment.end_time:
                 time.sleep(0.005)
 
-        # Cleanup
+        # Summary card — show all key points for 2s before fade-out
         remove_highlights(page)
         remove_lower_third(page)
+        inject_summary_card(page, narration_plan.key_points)
+        time.sleep(2.0)
+
+        # Cleanup
         time.sleep(0.5)
         
         pass_wall_time = time.perf_counter() - pass_start

@@ -417,6 +417,80 @@ def inject_progress_bar(page: Page, total_duration_ms: float):
     page.evaluate(js_code)
 
 
+def inject_summary_card(page: Page, key_points):
+    """
+    Injects a full-screen summary card listing all key point labels.
+    Fades in immediately and fades out after 2s.
+    """
+    labels_json = json.dumps([kp.label for kp in key_points])
+    js_code = f"""
+    (function() {{
+        const labels = {labels_json};
+
+        const overlay = document.createElement('div');
+        overlay.id = 'atv-summary-card';
+        Object.assign(overlay.style, {{
+            position: 'fixed', top: '0', left: '0', width: '100%', height: '100%',
+            background: 'linear-gradient(160deg, rgba(10,10,20,0.95) 0%, rgba(30,30,60,0.97) 100%)',
+            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+            zIndex: '2147483646', fontFamily: 'Arial, sans-serif',
+            opacity: '0', transition: 'opacity 0.35s ease',
+            padding: '40px 32px', boxSizing: 'border-box'
+        }});
+
+        const heading = document.createElement('div');
+        Object.assign(heading.style, {{
+            color: '#E63946', fontSize: '18px', fontWeight: '800',
+            letterSpacing: '5px', textTransform: 'uppercase',
+            marginBottom: '28px', textAlign: 'center'
+        }});
+        heading.innerText = 'KEY POINTS';
+        overlay.appendChild(heading);
+
+        labels.forEach((label, i) => {{
+            const row = document.createElement('div');
+            Object.assign(row.style, {{
+                display: 'flex', alignItems: 'center', gap: '14px',
+                marginBottom: '16px', width: '100%'
+            }});
+
+            const num = document.createElement('div');
+            Object.assign(num.style, {{
+                width: '30px', height: '30px', borderRadius: '50%',
+                backgroundColor: '#E63946', color: 'white',
+                fontSize: '14px', fontWeight: '800',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                flexShrink: '0'
+            }});
+            num.innerText = i + 1;
+
+            const text = document.createElement('div');
+            Object.assign(text.style, {{
+                color: 'white', fontSize: '20px', fontWeight: '600',
+                lineHeight: '1.3'
+            }});
+            text.innerText = label;
+
+            row.appendChild(num);
+            row.appendChild(text);
+            overlay.appendChild(row);
+        }});
+
+        const divider = document.createElement('div');
+        Object.assign(divider.style, {{
+            width: '48px', height: '4px', backgroundColor: '#E63946',
+            margin: '28px auto 0', borderRadius: '2px'
+        }});
+        overlay.appendChild(divider);
+
+        document.body.appendChild(overlay);
+        overlay.getBoundingClientRect();
+        overlay.style.opacity = '1';
+    }})();
+    """
+    page.evaluate(js_code)
+
+
 def trigger_keypoint_transition(page: Page, excerpt: str, label: str, accent_color: str, kp_index: int, total_kps: int):
     """
     Batches ALL UI actions for a keypoint into a single JS execution to minimize latency.
