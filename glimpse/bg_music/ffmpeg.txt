@@ -1,0 +1,1 @@
+ffmpeg -y -i "Breaking the Silence.mp3" -filter_complex "[0:a]atrim=0:18.432,asetpts=PTS-STARTPTS[a1];[0:a]atrim=14.732:18.432,asetpts=PTS-STARTPTS,aloop=loop=99:size=166157[a2];[a1][a2]concat=n=2:v=0:a=1[out]" -map "[out]" final.mp3
