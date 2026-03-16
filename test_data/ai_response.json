@@ -1,47 +1,59 @@
 {
-  "narration_script": "Two weeks into Operation Epic Fury, the military campaign to dismantle Iran\u2019s ballistic and nuclear capabilities has triggered a global crisis. While the initial air assault targeted air defenses and naval assets, the Iranian regime remains in power and is lashing out. The conflict has rapidly escalated across the Middle East, with Iranian missiles striking Israel and American bases. Beyond the immediate combat zones, the humanitarian toll is staggering. The United Nations reports that over three million people are now displaced as civilians flee major cities. Economically, the world is reeling as the Strait of Hormuz remains effectively choked off, disrupting twenty percent of the global oil supply. In response to surging costs, European governments are moving to crack down on price gouging by energy firms. This escalation has left Washington\u2019s Gulf allies in a state of profound shock, as regional stability evaporates. Despite U.S. efforts to pivot away from the Middle East, this conflict proves the region continues to dominate American foreign policy.",
-  "key_points": [
-    {
-      "id": 1,
-      "label": "Operation Epic Fury Begins",
-      "excerpt": "A campaign to rid Iran of its ballistic missiles, navy and any lingering ambitions to develop a nuclear weapon has triggered a crisis which threatens regional stability and the global economy.",
-      "script_anchor": "campaign to dismantle Iran\u2019s ballistic and nuclear capabilities"
-    },
-    {
-      "id": 2,
-      "label": "Conflict Escalates Regionally",
-      "excerpt": "The conflict quickly escalated, with Iran attacking Israel and American bases across the region with missiles and drones.",
-      "script_anchor": "Iranian missiles striking Israel and American bases"
-    },
-    {
-      "id": 3,
-      "label": "Massive Civilian Displacement",
-      "excerpt": "The UN says as many as 3.2 million people have been displaced so far, as Iranians - and many long-term Afghan refugees - flee cities and seek shelter in the countryside.",
-      "script_anchor": "over three million people are now displaced"
-    },
-    {
-      "id": 4,
-      "label": "Global Oil Supply Choked",
-      "excerpt": "The Strait of Hormuz, a narrow waterway through which about 20% of the world\u2019s oil passes, has been all-but choked off.",
-      "script_anchor": "Strait of Hormuz remains effectively choked off"
-    },
-    {
-      "id": 5,
-      "label": "Crackdown on Price Gouging",
-      "excerpt": "In Britain and Europe, governments say they will crack down on price gouging, amid fears that energy companies are seeking to profit from the crisis.",
-      "script_anchor": "crack down on price gouging by energy firms"
-    },
-    {
-      "id": 6,
-      "label": "Gulf Allies Express Shock",
-      "excerpt": "For Washington\u2019s Gulf allies, including Saudi Arabia and the UAE, the war has come as a profound shock.",
-      "script_anchor": "Washington\u2019s Gulf allies in a state of profound shock"
-    },
-    {
-      "id": 7,
-      "label": "Middle East Dominates Policy",
-      "excerpt": "The war in Iran demonstrates, yet again, that the wider Middle East has a way of sucking America back in.",
-      "script_anchor": "region continues to dominate American foreign policy"
-    }
-  ]
+    "narration_script": "Two weeks into Operation Epic Fury, the mission to eliminate Iran's ballistic missiles and nuclear ambitions is triggering a severe global crisis. Military assets are dispersed across a vast landscape, often buried deep in mountain bunkers. The conflict escalated rapidly after the Supreme Leader was killed on the very first day. Violence has since spread to Lebanon and even a British airbase in Cyprus. The human cost is staggering, with over three million people now displaced by the fighting. Global markets are reeling as the vital Strait of Hormuz is effectively choked off. Governments worldwide are now scrambling to address surging energy costs and potential price gouging. This sudden escalation has left Washington’s Gulf allies in a state of profound shock. Despite long-term efforts to pivot toward Asia, the Middle East continues to dominate American foreign policy, as regional instability threatens to prolong the conflict.",
+    "key_points": [
+        {
+            "id": 1,
+            "label": "Campaign Objectives",
+            "excerpt": "A campaign to rid Iran of its ballistic missiles, navy and any lingering ambitions to develop a nuclear weapon",
+            "script_anchor": "eliminate Iran's ballistic missiles and nuclear ambitions"
+        },
+        {
+            "id": 2,
+            "label": "Dispersed Military Assets",
+            "excerpt": "Its military assets, such as parts of its nuclear programme, are dispersed across a huge country, sometimes buried deep in mountain bunkers.",
+            "script_anchor": "dispersed across a vast landscape, often buried"
+        },
+        {
+            "id": 3,
+            "label": "Leadership Targeted",
+            "excerpt": "Iran’s Supreme Leader, Ayatollah Ali Khamenei, and many key regime figures, were killed on day one.",
+            "script_anchor": "Supreme Leader was killed on the very first day"
+        },
+        {
+            "id": 4,
+            "label": "Regional Conflict Spread",
+            "excerpt": "Within days, the British RAF base at Akrotiri, Cyprus, had been hit.",
+            "script_anchor": "even a British airbase in Cyprus"
+        },
+        {
+            "id": 5,
+            "label": "Mass Civilian Displacement",
+            "excerpt": "The UN says as many as 3.2 million people have been displaced so far",
+            "script_anchor": "over three million people now displaced by"
+        },
+        {
+            "id": 6,
+            "label": "Global Economic Impact",
+            "excerpt": "The Strait of Hormuz, a narrow waterway through which about 20% of the world’s oil passes, has been all-but choked off.",
+            "script_anchor": "Strait of Hormuz is effectively choked off"
+        },
+        {
+            "id": 7,
+            "label": "Energy Price Crisis",
+            "excerpt": "In Britain and Europe, governments say they will crack down on price gouging",
+            "script_anchor": "surging energy costs and potential price gouging"
+        },
+        {
+            "id": 8,
+            "label": "Shock to Gulf Allies",
+            "excerpt": "For Washington’s Gulf allies, including Saudi Arabia and the UAE, the war has come as a profound shock.",
+            "script_anchor": "Washington’s Gulf allies in a state of profound shock"
+        },
+        {
+            "id": 9,
+            "label": "US Foreign Policy Shift",
+            "excerpt": "The war in Iran demonstrates, yet again, that the wider Middle East has a way of sucking America back in.",
+            "script_anchor": "Middle East continues to dominate American foreign policy"
+        }
+    ]
 }

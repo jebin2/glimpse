@@ -9,6 +9,7 @@ from glimpse.core.page_actions import (
     find_and_highlight_element,
     remove_highlights,
     scroll_to_element,
+    scroll_continuous,
     inject_lower_third,
     remove_lower_third,
     remove_ads,
@@ -102,6 +103,12 @@ class Scraper:
                 f"{segment.start_time:6.2f}s → {segment.end_time:6.2f}s | "
                 f"dur: {duration:.2f}s{flag} | drift: {drift_ms:.1f}ms"
             )
+
+            # Auto-scroll during long bridge segments to keep the video moving
+            SCROLL_THRESHOLD = 4.0   # seconds
+            SCROLL_SPEED     = 55.0  # px/s — comfortable reading pace
+            if segment.type == "bridge" and duration > SCROLL_THRESHOLD:
+                scroll_continuous(page, SCROLL_SPEED, duration)
 
             if segment.type == "key_point":
                 kp = next((k for k in narration_plan.key_points if k.id == segment.key_point_id), None)

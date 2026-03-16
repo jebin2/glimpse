@@ -34,8 +34,8 @@ class AIAnalyzer:
         script = data.get("narration_script", "")
         points_data = data.get("key_points", [])
         
-        if not (5 <= len(points_data) <= 7):
-            raise ValueError(f"Expected 5-7 key points, got {len(points_data)}")
+        if not (7 <= len(points_data) <= 10):
+            raise ValueError(f"Expected 7-10 key points, got {len(points_data)}")
             
         key_points = []
         for idx, kp in enumerate(points_data):
