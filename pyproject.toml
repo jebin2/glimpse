@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glimpse"
+version = "0.1.0"
+description = "Article-to-Video CLI Generator"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai>=0.1.2",
+    "requests>=2.31.0",
+    "pydub>=0.25.1",
+    "mutagen>=1.47.0",
+    "Pillow>=10.0.0",
+    "python-dotenv>=1.0.0",
+    "custom_logger @ git+https://github.com/jebin2/custom_logger.git",
+    "browser_manager @ git+https://github.com/jebin2/browser_manager.git",
+    "jebin_lib @ git+https://github.com/jebin2/lib.git",
+]
+
+[project.scripts]
+glimpse = "main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+glimpse = ["prompts/**"]

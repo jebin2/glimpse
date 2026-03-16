@@ -13,7 +13,6 @@ class KeyPoint:
     label: str
     excerpt: str
     script_anchor: str
-    position_hint: str
 
 @dataclass
 class NarrationPlan:
@@ -21,12 +20,10 @@ class NarrationPlan:
     key_points: List[KeyPoint]
 
 class AIAnalyzer:
-    def __init__(self):
-        # We assume GEMINI_API_KEY is available in the environment
+    def __init__(self, test: bool = False):
+        self.test = test
         self.api_key = os.environ.get("GEMINI_API_KEY", "").split(",")[0]
-        # In test mode we don't strictly require an API key if the cache exists
-        is_test = os.environ.get("TEST", "").lower() == "true"
-        if not self.api_key and not is_test:
+        if not self.api_key and not self.test:
             raise ValueError("GEMINI_API_KEY environment variable is not set.")
         
         if self.api_key:
@@ -51,7 +48,6 @@ class AIAnalyzer:
                 label=kp.get("label", ""),
                 excerpt=kp.get("excerpt", ""),
                 script_anchor=anchor,
-                position_hint=kp.get("position_hint", "middle")
             ))
             
         return NarrationPlan(full_script=script, key_points=key_points)
@@ -61,10 +57,9 @@ class AIAnalyzer:
         Pass 2: Uses Gemini to extract a narration script and key points.
         Returns a NarrationPlan object.
         """
-        is_test = os.environ.get("TEST", "").lower() == "true"
         test_file = "test_data/ai_response.json"
-        
-        if is_test and os.path.exists(test_file):
+
+        if self.test and os.path.exists(test_file):
             logger_config.info(f"[2/5] TEST MODE: Loading Gemini response from {test_file}")
             with open(test_file, "r") as f:
                 data = json.load(f)
@@ -72,7 +67,7 @@ class AIAnalyzer:
             
         logger_config.info(f"[2/5] Extracting key points with {self.model}...")
         
-        prompt_path = os.path.join(os.path.dirname(__file__), "..", "prompts", "script_writer.txt")
+        prompt_path = os.path.join(os.path.dirname(__file__), "..", "prompts", "script_writer.md")
         with open(prompt_path, "r") as f:
             prompt_template = f.read()
             
@@ -109,7 +104,7 @@ class AIAnalyzer:
                 text_response = text_response.replace('```json', '').replace('```', '').strip()
                 data = json.loads(text_response)
                 
-                if is_test:
+                if self.test:
                     os.makedirs("test_data", exist_ok=True)
                     with open(test_file, "w") as f:
                         json.dump(data, f, indent=2)

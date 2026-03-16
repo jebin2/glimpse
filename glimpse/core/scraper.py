@@ -5,7 +5,7 @@ from typing import Optional
 
 from browser_manager import BrowserManager
 from browser_manager.browser_config import BrowserConfig
-from core.page_actions import (
+from glimpse.core.page_actions import (
     find_and_highlight_element,
     remove_highlights,
     scroll_to_element,
@@ -15,7 +15,7 @@ from core.page_actions import (
     trigger_keypoint_transition
 )
 from PIL import Image, ImageDraw, ImageFont
-from core.site_handlers import apply_site_handlers
+from glimpse.core.site_handlers import apply_site_handlers
 from custom_logger import logger_config
 
 class Scraper:

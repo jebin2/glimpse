@@ -1,12 +1,14 @@
+from jebin_lib import load_env
+load_env()
+
 import argparse
 import os
-from dotenv import load_dotenv
 
-from core.scraper import Scraper
-from core.ai_analysis import AIAnalyzer
-from core.tts_manager import TTSManager
-from core.video_assembler import VideoAssembler
-from utils.helpers import slugify, cleanup_tmp_dir, Timer, format_time
+from glimpse.core.scraper import Scraper
+from glimpse.core.ai_analysis import AIAnalyzer
+from glimpse.core.tts_manager import TTSManager
+from glimpse.core.video_assembler import VideoAssembler
+from glimpse.utils.helpers import slugify, cleanup_tmp_dir, Timer, format_time
 from custom_logger import logger_config
 
 def main():
@@ -14,11 +16,9 @@ def main():
     parser.add_argument("article_url", type=str, help="Full URL of the article to process")
     parser.add_argument("--output", type=str, default="", help="Output MP4 file path")
     parser.add_argument("--keep-temp", action="store_true", help="Keep temporary directory after completion")
+    parser.add_argument("--test", action="store_true", help="Use cached test data instead of live API calls")
     args = parser.parse_args()
-    
-    # Load .env variables
-    load_dotenv()
-    
+
     import time
     timestamp = str(int(time.time()))
     slug = slugify(args.article_url)
@@ -37,8 +37,8 @@ def main():
     logger_config.info(f"Will output to: {output_path}")
     
     scraper = Scraper(headless=True)
-    ai = AIAnalyzer()
-    tts = TTSManager()
+    ai = AIAnalyzer(test=args.test)
+    tts = TTSManager(test=args.test)
     assembler = VideoAssembler()
     
     with Timer() as full_timer:

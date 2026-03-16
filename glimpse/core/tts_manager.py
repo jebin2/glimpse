@@ -13,7 +13,7 @@ from google import genai
 from google.genai import types
 import json_repair
 
-from core.ai_analysis import NarrationPlan
+from glimpse.core.ai_analysis import NarrationPlan
 from jebin_lib import HFTTSClient, HFSTTClient
 
 @dataclass
@@ -28,7 +28,8 @@ class AudioSegmentInfo:
     end_time: float        # Absolute end time in the full audio
 
 class TTSManager:
-    def __init__(self):
+    def __init__(self, test: bool = False):
+        self.test = test
         self.tts_client = HFTTSClient()
         self.stt_client = HFSTTClient()
         self.api_key = os.environ.get("GEMINI_API_KEY", "").split(",")[0]
@@ -43,7 +44,7 @@ class TTSManager:
         """
         logger_config.info("Forcing STT JSON to match original script via Gemini...")
         
-        prompt_path = os.path.join(os.path.dirname(__file__), "..", "prompts", "STT_spelling_corrector.txt")
+        prompt_path = os.path.join(os.path.dirname(__file__), "..", "prompts", "STT_spelling_corrector.md")
         if not os.path.exists(prompt_path):
             logger_config.warning(f"Spelling corrector prompt not found at {prompt_path}, skipping.")
             return
@@ -93,17 +94,16 @@ class TTSManager:
         """
         logger_config.info(f"[3/5] Generating full high-quality TTS audio track...")
         
-        is_test = os.environ.get("TEST", "").lower() == "true"
-        if is_test:
+        if self.test:
             os.makedirs("test_data", exist_ok=True)
-            
+
         full_audio_path = os.path.join(tmpdir, "narration_full.wav")
         test_audio_path = "test_data/narration_full.wav"
         stt_json_path = os.path.splitext(full_audio_path)[0] + ".json"
         test_stt_path = "test_data/narration_full.wav.json"
 
         # 1. Generate Voice Audio (Single Track)
-        if is_test and os.path.exists(test_audio_path):
+        if self.test and os.path.exists(test_audio_path):
             logger_config.info(f"TEST MODE: Using cached full audio {test_audio_path}")
             shutil.copy2(test_audio_path, full_audio_path)
             if os.path.exists(test_stt_path):
@@ -115,7 +115,7 @@ class TTSManager:
                 logger_config.error(f"TTS API failed: {e}. Creating dummy audio fallback...")
                 AudioSegment.silent(duration=30000).export(full_audio_path, format="wav")
             
-            if is_test:
+            if self.test:
                 shutil.copy2(full_audio_path, test_audio_path)
 
         # 2. Transcribe for Alignment
@@ -128,7 +128,7 @@ class TTSManager:
         # 3. Force-match STT JSON to Original Script via Gemini
         # self._fix_stt_spelling(stt_json_path, plan.full_script)
         
-        if is_test:
+        if self.test:
             shutil.copy2(stt_json_path, test_stt_path)
 
         # 4. Extract High-Precision Timestamps for Each Segment
