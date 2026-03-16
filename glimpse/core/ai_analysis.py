@@ -107,7 +107,7 @@ class AIAnalyzer:
                 if self.test:
                     os.makedirs("test_data", exist_ok=True)
                     with open(test_file, "w") as f:
-                        json.dump(data, f, indent=2)
+                        json.dump(data, f, indent=4, ensure_ascii=False)
                 
                 return self._parse_plan_data(data)
                 

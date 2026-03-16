@@ -36,12 +36,14 @@ class VideoAssembler:
             "ffmpeg", "-y",
             "-i", webm_path,
             "-i", audio_path,
-            # Precise Filter-based trimming to avoid keyframe snapping issues in WebM
+            # Trim, then composite foreground over a blurred/zoomed background fill
+            # so any letterbox gaps are filled with a blurred version of the video
+            # instead of plain black bars.
             "-filter_complex", (
-                f"[0:v]trim=start={start_offset}:duration={duration},"
-                f"setpts=PTS-STARTPTS,"
-                f"fps=30,scale=1080:1920:force_original_aspect_ratio=decrease,"
-                f"pad=1080:1920:(ow-iw)/2:(oh-ih)/2:black[v]"
+                f"[0:v]trim=start={start_offset}:duration={duration},setpts=PTS-STARTPTS,fps=30,split=2[t1][t2];"
+                f"[t1]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:4[bg];"
+                f"[t2]scale=1080:1920:force_original_aspect_ratio=decrease[fg];"
+                f"[bg][fg]overlay=(W-w)/2:(H-h)/2[v]"
             ),
             "-map", "[v]",
             "-map", "1:a",

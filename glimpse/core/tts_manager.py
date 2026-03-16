@@ -81,7 +81,7 @@ class TTSManager:
             result = json_repair.loads(raw_response)
             if isinstance(result, dict):
                 with open(stt_json_path, 'w') as file:
-                    json.dump(result, file, indent=2)
+                    json.dump(result, file, indent=4, ensure_ascii=False)
                 logger_config.success("STT output successfully force-matched to original script.")
             
         except Exception as e:

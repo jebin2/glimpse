@@ -26,4 +26,4 @@ glimpse = "main:main"
 where = ["."]
 
 [tool.setuptools.package-data]
-glimpse = ["prompts/**"]
+glimpse = ["prompts/**", "bg_music/**"]

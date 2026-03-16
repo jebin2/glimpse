@@ -12,6 +12,8 @@ from glimpse.core.page_actions import (
     inject_lower_third,
     remove_lower_third,
     remove_ads,
+    inject_headline_card,
+    inject_progress_bar,
     trigger_keypoint_transition
 )
 from PIL import Image, ImageDraw, ImageFont
@@ -70,13 +72,20 @@ class Scraper:
         #    at scroll position 0.  Everything from here until the end of this
         #    method is what the viewer should see in the final video.
         pass_start = time.perf_counter()
-        
+
         logger_config.info("--- RECORDING PASS START (page at top) ---")
-        
+
+        total_duration_ms = (audio_segments[-1].end_time if audio_segments else 30) * 1000
+        total_kps = len(narration_plan.key_points)
+
+        # Inject hook overlay and progress bar at the very start of the recording
+        inject_headline_card(page)
+        inject_progress_bar(page, total_duration_ms)
+
         start_wall_time = time.perf_counter()
-        lt_colors = ["#E63946", "#457B9D", "#2D6A4F"]
+        lt_colors = ["#E63946"]
         color_idx = 0
-        
+
         for segment in audio_segments:
             # Wait for segment start
             while (time.perf_counter() - start_wall_time) < segment.start_time:
@@ -84,14 +93,14 @@ class Scraper:
 
             actual_start = time.perf_counter() - start_wall_time
             drift_ms = (actual_start - segment.start_time) * 1000
-            
+
             if segment.type == "key_point":
                 logger_config.debug(f"TRIGGER [{segment.segment_index}]: KP {segment.key_point_id} | Drift: {drift_ms:.1f}ms")
                 kp = next((k for k in narration_plan.key_points if k.id == segment.key_point_id), None)
                 if kp:
                     accent_color = lt_colors[color_idx % len(lt_colors)]
                     color_idx += 1
-                    trigger_keypoint_transition(page, kp.excerpt, kp.label, accent_color, color_idx)
+                    trigger_keypoint_transition(page, kp.excerpt, kp.label, accent_color, color_idx, total_kps)
             
             # Wait for segment end
             while (time.perf_counter() - start_wall_time) < segment.end_time:

@@ -1,54 +1,47 @@
 {
-  "narration_script": "Iran has entered a state of survival following the death of Supreme Leader Ayatollah Ali Khamenei in a series of targeted airstrikes. The 86-year-old cleric was killed after decades of trading threats and missiles with Israel and the United States. Satellite imagery confirms the destruction of his secure compound in downtown Tehran, now reduced to a gray mass. While the strike marks the end of an era for a nation that has known only one leader for forty years, the Islamic Republic\u2019s system of rule remains functional. Security has been tightened across major cities as volunteer paramilitaries and armed police patrol the streets to prevent potential uprisings. Despite calls from the West for a popular revolt, ordinary Iranians appear to be prioritizing safety over civil unrest. For now, a temporary council consisting of the heads of the judiciary, legislature, and executive will govern the country according to the constitution. Experts suggest the Islamic Revolutionary Guard Corps is poised to seize even greater political and economic influence during this transition. The leadership vacuum also raises urgent questions regarding Iran\u2019s nuclear policy and its long-standing religious edict against weaponization. With Khamenei gone, internal voices seeking greater flexibility in the country's pursuit of deterrence may finally gain traction. Internationally, the assassination has drawn sharp condemnation from China and Russia, while the region braces for the seismic consequences of this power shift. Khamenei\u2019s legacy will ultimately be defined by his iron fist and a four-decade fixation on challenging Western interests.",
+  "narration_script": "Two weeks into Operation Epic Fury, the military campaign to dismantle Iran\u2019s ballistic and nuclear capabilities has triggered a global crisis. While the initial air assault targeted air defenses and naval assets, the Iranian regime remains in power and is lashing out. The conflict has rapidly escalated across the Middle East, with Iranian missiles striking Israel and American bases. Beyond the immediate combat zones, the humanitarian toll is staggering. The United Nations reports that over three million people are now displaced as civilians flee major cities. Economically, the world is reeling as the Strait of Hormuz remains effectively choked off, disrupting twenty percent of the global oil supply. In response to surging costs, European governments are moving to crack down on price gouging by energy firms. This escalation has left Washington\u2019s Gulf allies in a state of profound shock, as regional stability evaporates. Despite U.S. efforts to pivot away from the Middle East, this conflict proves the region continues to dominate American foreign policy.",
   "key_points": [
     {
       "id": 1,
-      "label": "Khamenei Killed in Airstrikes",
-      "excerpt": "The 86-year-old cleric was killed after decades of trading threats and, more recently, missiles with Israel and the US.",
-      "script_anchor": "The 86-year-old cleric was killed after decades of trading threats and missiles with Israel and the United States.",
-      "position_hint": "early"
+      "label": "Operation Epic Fury Begins",
+      "excerpt": "A campaign to rid Iran of its ballistic missiles, navy and any lingering ambitions to develop a nuclear weapon has triggered a crisis which threatens regional stability and the global economy.",
+      "script_anchor": "campaign to dismantle Iran\u2019s ballistic and nuclear capabilities"
     },
     {
       "id": 2,
-      "label": "Tehran Compound Destroyed",
-      "excerpt": "Satellite images showed the secure compound in downtown Tehran where his residence and offices had been, reduced to a gray mass.",
-      "script_anchor": "reduced to a gray mass.",
-      "position_hint": "early"
+      "label": "Conflict Escalates Regionally",
+      "excerpt": "The conflict quickly escalated, with Iran attacking Israel and American bases across the region with missiles and drones.",
+      "script_anchor": "Iranian missiles striking Israel and American bases"
     },
     {
       "id": 3,
-      "label": "Security Forces Tighten Control",
-      "excerpt": "Security in towns and cities across the country has been tightened with reports from residents in the capital Tehran of large numbers of volunteer paramilitaries and armed police in the streets.",
-      "script_anchor": "volunteer paramilitaries and armed police patrol the streets",
-      "position_hint": "middle"
+      "label": "Massive Civilian Displacement",
+      "excerpt": "The UN says as many as 3.2 million people have been displaced so far, as Iranians - and many long-term Afghan refugees - flee cities and seek shelter in the countryside.",
+      "script_anchor": "over three million people are now displaced"
     },
     {
       "id": 4,
-      "label": "Constitutional Council Takes Power",
-      "excerpt": "In the short term, Iran will be governed according to the constitution. It will be governed by a council made up of the heads of the judiciary, the legislature, and the executive,",
-      "script_anchor": "council consisting of the heads of the judiciary, legislature, and executive",
-      "position_hint": "middle"
+      "label": "Global Oil Supply Choked",
+      "excerpt": "The Strait of Hormuz, a narrow waterway through which about 20% of the world\u2019s oil passes, has been all-but choked off.",
+      "script_anchor": "Strait of Hormuz remains effectively choked off"
     },
     {
       "id": 5,
-      "label": "IRGC Influence Expected to Grow",
-      "excerpt": "it's likely that the IRGC - the powerful wing of Iran's armed forces originally designed to protect the regime and its supreme leader - will assume much more power",
-      "script_anchor": "Islamic Revolutionary Guard Corps is poised to seize even greater political and economic influence",
-      "position_hint": "middle"
+      "label": "Crackdown on Price Gouging",
+      "excerpt": "In Britain and Europe, governments say they will crack down on price gouging, amid fears that energy companies are seeking to profit from the crisis.",
+      "script_anchor": "crack down on price gouging by energy firms"
     },
     {
       "id": 6,
-      "label": "Nuclear Doctrine Shift Possible",
-      "excerpt": "With Khamenei's demise, voices that have sought greater flexibility in Iran's pursuit of deterrence may gain new strength.",
-      "script_anchor": "voices seeking greater flexibility in the country's pursuit of deterrence",
-      "position_hint": "late"
+      "label": "Gulf Allies Express Shock",
+      "excerpt": "For Washington\u2019s Gulf allies, including Saudi Arabia and the UAE, the war has come as a profound shock.",
+      "script_anchor": "Washington\u2019s Gulf allies in a state of profound shock"
     },
     {
       "id": 7,
-      "label": "Legacy of Brutality",
-      "excerpt": "\"Khamenei's legacy will be one of brutality,\" said Dina Esfandiary, geo-economics analyst at Bloomberg Economics, \"people will remember his iron fist in crushing dissent.\"",
-      "script_anchor": "iron fist and a four-decade fixation on challenging Western interests.",
-      "position_hint": "late"
+      "label": "Middle East Dominates Policy",
+      "excerpt": "The war in Iran demonstrates, yet again, that the wider Middle East has a way of sucking America back in.",
+      "script_anchor": "region continues to dominate American foreign policy"
     }
   ]
 }

@@ -1,1 +1,1204 @@
-{"text": "Iran has entered a state of survival following the death of Supreme Leader Ayatollah Ali Khamenei in a series of targeted airstrikes. The 86-year-old cleric was killed after decades of trading threats and missiles with Israel and the United States. Satellite imagery confirms the destruction of his secure compound in downtown Tehran, now reduced to a grey mass. While the strike marks the end of an era for a nation that has known only one leader for 40 years, the Islamic Republic's system of rule remains functional. Security has been tightened across major cities as volunteer paramilitaries and armed police patrol the streets to prevent potential uprisings. Despite calls from the West for a popular revolt, ordinary Iranians appear to be prioritizing safety over civil unrest. For now, a temporary council consisting of the heads of the judiciary, legislature, and executive will govern the country according to the constitution. Experts suggest the Islamic Revolutionary Guard Corps is poised to seize even greater political and economic influence during this transition. The leadership vacuum also raises urgent questions regarding Iran's nuclear policy and its long-standing religious edict against weaponization. With Khamenei gone, internal voices seeking greater flexibility in the country's pursuit of deterrence may finally gain traction. Internationally, the assassination has drawn sharp condemnation from China and Russia, while the region braces for the seismic consequences of this power shift. Khamenei's legacy will ultimately be defined by his iron fist and a four-decade fixation on challenging Western interests.", "language": "", "model": "parakeet-nvidia/parakeet-tdt-0.6b-v3", "duration": 90, "segments": {"word": [{"word": "Iran", "start_offset": 0, "end_offset": 7, "start": 0.0, "end": 0.56}, {"word": "has", "start_offset": 7, "end_offset": 9, "start": 0.56, "end": 0.72}, {"word": "entered", "start_offset": 9, "end_offset": 13, "start": 0.72, "end": 1.04}, {"word": "a", "start_offset": 13, "end_offset": 14, "start": 1.04, "end": 1.12}, {"word": "state", "start_offset": 14, "end_offset": 17, "start": 1.12, "end": 1.36}, {"word": "of", "start_offset": 17, "end_offset": 18, "start": 1.36, "end": 1.44}, {"word": "survival", "start_offset": 18, "end_offset": 24, "start": 1.44, "end": 1.92}, {"word": "following", "start_offset": 24, "end_offset": 28, "start": 1.92, "end": 2.24}, {"word": "the", "start_offset": 28, "end_offset": 29, "start": 2.24, "end": 2.32}, {"word": "death", "start_offset": 29, "end_offset": 32, "start": 2.32, "end": 2.56}, {"word": "of", "start_offset": 32, "end_offset": 34, "start": 2.56, "end": 2.72}, {"word": "Supreme", "start_offset": 34, "end_offset": 40, "start": 2.72, "end": 3.2}, {"word": "Leader", "start_offset": 40, "end_offset": 46, "start": 3.2, "end": 3.68}, {"word": "Ayatollah", "start_offset": 46, "end_offset": 55, "start": 3.68, "end": 4.4}, {"word": "Ali", "start_offset": 56, "end_offset": 57, "start": 4.48, "end": 4.5600000000000005}, {"word": "Khamenei", "start_offset": 59, "end_offset": 69, "start": 4.72, "end": 5.5200000000000005}, {"word": "in", "start_offset": 70, "end_offset": 72, "start": 5.6000000000000005, "end": 5.76}, {"word": "a", "start_offset": 72, "end_offset": 73, "start": 5.76, "end": 5.84}, {"word": "series", "start_offset": 73, "end_offset": 76, "start": 5.84, "end": 6.08}, {"word": "of", "start_offset": 76, "end_offset": 78, "start": 6.08, "end": 6.24}, {"word": "targeted", "start_offset": 78, "end_offset": 84, "start": 6.24, "end": 6.72}, {"word": "airstrikes.", "start_offset": 84, "end_offset": 94, "start": 6.72, "end": 7.5200000000000005}, {"word": "The", "start_offset": 97, "end_offset": 99, "start": 7.76, "end": 7.92}, {"word": "86-year-old", "start_offset": 99, "end_offset": 110, "start": 7.92, "end": 8.8}, {"word": "cleric", "start_offset": 110, "end_offset": 116, "start": 8.8, "end": 9.28}, {"word": "was", "start_offset": 116, "end_offset": 118, "start": 9.28, "end": 9.44}, {"word": "killed", "start_offset": 118, "end_offset": 122, "start": 9.44, "end": 9.76}, {"word": "after", "start_offset": 122, "end_offset": 125, "start": 9.76, "end": 10.0}, {"word": "decades", "start_offset": 125, "end_offset": 129, "start": 10.0, "end": 10.32}, {"word": "of", "start_offset": 129, "end_offset": 131, "start": 10.32, "end": 10.48}, {"word": "trading", "start_offset": 131, "end_offset": 136, "start": 10.48, "end": 10.88}, {"word": "threats", "start_offset": 136, "end_offset": 141, "start": 10.88, "end": 11.28}, {"word": "and", "start_offset": 141, "end_offset": 143, "start": 11.28, "end": 11.44}, {"word": "missiles", "start_offset": 143, "end_offset": 148, "start": 11.44, "end": 11.84}, {"word": "with", "start_offset": 148, "end_offset": 150, "start": 11.84, "end": 12.0}, {"word": "Israel", "start_offset": 150, "end_offset": 156, "start": 12.0, "end": 12.48}, {"word": "and", "start_offset": 156, "end_offset": 158, "start": 12.48, "end": 12.64}, {"word": "the", "start_offset": 158, "end_offset": 160, "start": 12.64, "end": 12.8}, {"word": "United", "start_offset": 160, "end_offset": 165, "start": 12.8, "end": 13.200000000000001}, {"word": "States.", "start_offset": 165, "end_offset": 169, "start": 13.200000000000001, "end": 13.52}, {"word": "Satellite", "start_offset": 172, "end_offset": 180, "start": 13.76, "end": 14.4}, {"word": "imagery", "start_offset": 180, "end_offset": 187, "start": 14.4, "end": 14.96}, {"word": "confirms", "start_offset": 187, "end_offset": 193, "start": 14.96, "end": 15.44}, {"word": "the", "start_offset": 193, "end_offset": 194, "start": 15.44, "end": 15.52}, {"word": "destruction", "start_offset": 194, "end_offset": 198, "start": 15.52, "end": 15.84}, {"word": "of", "start_offset": 198, "end_offset": 200, "start": 15.84, "end": 16.0}, {"word": "his", "start_offset": 200, "end_offset": 202, "start": 16.0, "end": 16.16}, {"word": "secure", "start_offset": 202, "end_offset": 206, "start": 16.16, "end": 16.48}, {"word": "compound", "start_offset": 206, "end_offset": 212, "start": 16.48, "end": 16.96}, {"word": "in", "start_offset": 212, "end_offset": 214, "start": 16.96, "end": 17.12}, {"word": "downtown", "start_offset": 214, "end_offset": 221, "start": 17.12, "end": 17.68}, {"word": "Tehran,", "start_offset": 221, "end_offset": 229, "start": 17.68, "end": 18.32}, {"word": "now", "start_offset": 231, "end_offset": 234, "start": 18.48, "end": 18.72}, {"word": "reduced", "start_offset": 234, "end_offset": 239, "start": 18.72, "end": 19.12}, {"word": "to", "start_offset": 239, "end_offset": 240, "start": 19.12, "end": 19.2}, {"word": "a", "start_offset": 240, "end_offset": 242, "start": 19.2, "end": 19.36}, {"word": "grey", "start_offset": 242, "end_offset": 247, "start": 19.36, "end": 19.76}, {"word": "mass.", "start_offset": 247, "end_offset": 252, "start": 19.76, "end": 20.16}, {"word": "While", "start_offset": 255, "end_offset": 258, "start": 20.400000000000002, "end": 20.64}, {"word": "the", "start_offset": 258, "end_offset": 260, "start": 20.64, "end": 20.8}, {"word": "strike", "start_offset": 260, "end_offset": 264, "start": 20.8, "end": 21.12}, {"word": "marks", "start_offset": 264, "end_offset": 268, "start": 21.12, "end": 21.44}, {"word": "the", "start_offset": 268, "end_offset": 269, "start": 21.44, "end": 21.52}, {"word": "end", "start_offset": 269, "end_offset": 271, "start": 21.52, "end": 21.68}, {"word": "of", "start_offset": 271, "end_offset": 273, "start": 21.68, "end": 21.84}, {"word": "an", "start_offset": 273, "end_offset": 275, "start": 21.84, "end": 22.0}, {"word": "era", "start_offset": 275, "end_offset": 278, "start": 22.0, "end": 22.240000000000002}, {"word": "for", "start_offset": 278, "end_offset": 280, "start": 22.240000000000002, "end": 22.400000000000002}, {"word": "a", "start_offset": 280, "end_offset": 281, "start": 22.400000000000002, "end": 22.48}, {"word": "nation", "start_offset": 281, "end_offset": 285, "start": 22.48, "end": 22.8}, {"word": "that", "start_offset": 285, "end_offset": 287, "start": 22.8, "end": 22.96}, {"word": "has", "start_offset": 287, "end_offset": 289, "start": 22.96, "end": 23.12}, {"word": "known", "start_offset": 289, "end_offset": 292, "start": 23.12, "end": 23.36}, {"word": "only", "start_offset": 292, "end_offset": 295, "start": 23.36, "end": 23.6}, {"word": "one", "start_offset": 295, "end_offset": 298, "start": 23.6, "end": 23.84}, {"word": "leader", "start_offset": 298, "end_offset": 302, "start": 23.84, "end": 24.16}, {"word": "for", "start_offset": 302, "end_offset": 304, "start": 24.16, "end": 24.32}, {"word": "40", "start_offset": 304, "end_offset": 309, "start": 24.32, "end": 24.72}, {"word": "years,", "start_offset": 309, "end_offset": 313, "start": 24.72, "end": 25.04}, {"word": "the", "start_offset": 315, "end_offset": 317, "start": 25.2, "end": 25.36}, {"word": "Islamic", "start_offset": 317, "end_offset": 323, "start": 25.36, "end": 25.84}, {"word": "Republic's", "start_offset": 323, "end_offset": 331, "start": 25.84, "end": 26.48}, {"word": "system", "start_offset": 331, "end_offset": 333, "start": 26.48, "end": 26.64}, {"word": "of", "start_offset": 333, "end_offset": 335, "start": 26.64, "end": 26.8}, {"word": "rule", "start_offset": 335, "end_offset": 339, "start": 26.8, "end": 27.12}, {"word": "remains", "start_offset": 339, "end_offset": 345, "start": 27.12, "end": 27.6}, {"word": "functional.", "start_offset": 345, "end_offset": 351, "start": 27.6, "end": 28.080000000000002}, {"word": "Security", "start_offset": 353, "end_offset": 360, "start": 28.240000000000002, "end": 28.8}, {"word": "has", "start_offset": 360, "end_offset": 362, "start": 28.8, "end": 28.96}, {"word": "been", "start_offset": 362, "end_offset": 364, "start": 28.96, "end": 29.12}, {"word": "tightened", "start_offset": 364, "end_offset": 370, "start": 29.12, "end": 29.6}, {"word": "across", "start_offset": 370, "end_offset": 373, "start": 29.6, "end": 29.84}, {"word": "major", "start_offset": 373, "end_offset": 377, "start": 29.84, "end": 30.16}, {"word": "cities", "start_offset": 377, "end_offset": 381, "start": 30.16, "end": 30.48}, {"word": "as", "start_offset": 382, "end_offset": 385, "start": 30.560000000000002, "end": 30.8}, {"word": "volunteer", "start_offset": 385, "end_offset": 391, "start": 30.8, "end": 31.28}, {"word": "paramilitaries", "start_offset": 391, "end_offset": 402, "start": 31.28, "end": 32.160000000000004}, {"word": "and", "start_offset": 404, "end_offset": 406, "start": 32.32, "end": 32.480000000000004}, {"word": "armed", "start_offset": 406, "end_offset": 411, "start": 32.480000000000004, "end": 32.88}, {"word": "police", "start_offset": 411, "end_offset": 415, "start": 32.88, "end": 33.2}, {"word": "patrol", "start_offset": 415, "end_offset": 421, "start": 33.2, "end": 33.68}, {"word": "the", "start_offset": 421, "end_offset": 422, "start": 33.68, "end": 33.76}, {"word": "streets", "start_offset": 422, "end_offset": 427, "start": 33.76, "end": 34.160000000000004}, {"word": "to", "start_offset": 427, "end_offset": 429, "start": 34.160000000000004, "end": 34.32}, {"word": "prevent", "start_offset": 429, "end_offset": 433, "start": 34.32, "end": 34.64}, {"word": "potential", "start_offset": 433, "end_offset": 438, "start": 34.64, "end": 35.04}, {"word": "uprisings.", "start_offset": 438, "end_offset": 449, "start": 35.04, "end": 35.92}, {"word": "Despite", "start_offset": 452, "end_offset": 458, "start": 36.160000000000004, "end": 36.64}, {"word": "calls", "start_offset": 458, "end_offset": 462, "start": 36.64, "end": 36.96}, {"word": "from", "start_offset": 462, "end_offset": 464, "start": 36.96, "end": 37.12}, {"word": "the", "start_offset": 464, "end_offset": 466, "start": 37.12, "end": 37.28}, {"word": "West", "start_offset": 466, "end_offset": 469, "start": 37.28, "end": 37.52}, {"word": "for", "start_offset": 469, "end_offset": 471, "start": 37.52, "end": 37.68}, {"word": "a", "start_offset": 471, "end_offset": 473, "start": 37.68, "end": 37.84}, {"word": "popular", "start_offset": 473, "end_offset": 477, "start": 37.84, "end": 38.160000000000004}, {"word": "revolt,", "start_offset": 477, "end_offset": 483, "start": 38.160000000000004, "end": 38.64}, {"word": "ordinary", "start_offset": 485, "end_offset": 492, "start": 38.800000000000004, "end": 39.36}, {"word": "Iranians", "start_offset": 492, "end_offset": 500, "start": 39.36, "end": 40.0}, {"word": "appear", "start_offset": 500, "end_offset": 504, "start": 40.0, "end": 40.32}, {"word": "to", "start_offset": 504, "end_offset": 506, "start": 40.32, "end": 40.480000000000004}, {"word": "be", "start_offset": 506, "end_offset": 508, "start": 40.480000000000004, "end": 40.64}, {"word": "prioritizing", "start_offset": 508, "end_offset": 518, "start": 40.64, "end": 41.44}, {"word": "safety", "start_offset": 518, "end_offset": 525, "start": 41.44, "end": 42.0}, {"word": "over", "start_offset": 525, "end_offset": 529, "start": 42.0, "end": 42.32}, {"word": "civil", "start_offset": 529, "end_offset": 533, "start": 42.32, "end": 42.64}, {"word": "unrest.", "start_offset": 533, "end_offset": 541, "start": 42.64, "end": 43.28}, {"word": "For", "start_offset": 544, "end_offset": 548, "start": 43.52, "end": 43.84}, {"word": "now,", "start_offset": 548, "end_offset": 552, "start": 43.84, "end": 44.160000000000004}, {"word": "a", "start_offset": 555, "end_offset": 557, "start": 44.4, "end": 44.56}, {"word": "temporary", "start_offset": 557, "end_offset": 564, "start": 44.56, "end": 45.12}, {"word": "council", "start_offset": 564, "end_offset": 569, "start": 45.12, "end": 45.52}, {"word": "consisting", "start_offset": 569, "end_offset": 574, "start": 45.52, "end": 45.92}, {"word": "of", "start_offset": 574, "end_offset": 576, "start": 45.92, "end": 46.08}, {"word": "the", "start_offset": 576, "end_offset": 577, "start": 46.08, "end": 46.160000000000004}, {"word": "heads", "start_offset": 577, "end_offset": 581, "start": 46.160000000000004, "end": 46.480000000000004}, {"word": "of", "start_offset": 581, "end_offset": 582, "start": 46.480000000000004, "end": 46.56}, {"word": "the", "start_offset": 582, "end_offset": 584, "start": 46.56, "end": 46.72}, {"word": "judiciary,", "start_offset": 584, "end_offset": 591, "start": 46.72, "end": 47.28}, {"word": "legislature,", "start_offset": 593, "end_offset": 603, "start": 47.44, "end": 48.24}, {"word": "and", "start_offset": 604, "end_offset": 607, "start": 48.32, "end": 48.56}, {"word": "executive", "start_offset": 607, "end_offset": 616, "start": 48.56, "end": 49.28}, {"word": "will", "start_offset": 619, "end_offset": 621, "start": 49.52, "end": 49.68}, {"word": "govern", "start_offset": 621, "end_offset": 626, "start": 49.68, "end": 50.08}, {"word": "the", "start_offset": 626, "end_offset": 627, "start": 50.08, "end": 50.160000000000004}, {"word": "country", "start_offset": 627, "end_offset": 633, "start": 50.160000000000004, "end": 50.64}, {"word": "according", "start_offset": 633, "end_offset": 637, "start": 50.64, "end": 50.96}, {"word": "to", "start_offset": 637, "end_offset": 639, "start": 50.96, "end": 51.120000000000005}, {"word": "the", "start_offset": 639, "end_offset": 642, "start": 51.120000000000005, "end": 51.36}, {"word": "constitution.", "start_offset": 642, "end_offset": 653, "start": 51.36, "end": 52.24}, {"word": "Experts", "start_offset": 657, "end_offset": 664, "start": 52.56, "end": 53.120000000000005}, {"word": "suggest", "start_offset": 664, "end_offset": 670, "start": 53.120000000000005, "end": 53.6}, {"word": "the", "start_offset": 670, "end_offset": 672, "start": 53.6, "end": 53.76}, {"word": "Islamic", "start_offset": 672, "end_offset": 677, "start": 53.76, "end": 54.160000000000004}, {"word": "Revolutionary", "start_offset": 677, "end_offset": 685, "start": 54.160000000000004, "end": 54.800000000000004}, {"word": "Guard", "start_offset": 685, "end_offset": 690, "start": 54.800000000000004, "end": 55.2}, {"word": "Corps", "start_offset": 690, "end_offset": 694, "start": 55.2, "end": 55.52}, {"word": "is", "start_offset": 694, "end_offset": 697, "start": 55.52, "end": 55.76}, {"word": "poised", "start_offset": 697, "end_offset": 702, "start": 55.76, "end": 56.160000000000004}, {"word": "to", "start_offset": 702, "end_offset": 705, "start": 56.160000000000004, "end": 56.4}, {"word": "seize", "start_offset": 705, "end_offset": 709, "start": 56.4, "end": 56.72}, {"word": "even", "start_offset": 709, "end_offset": 712, "start": 56.72, "end": 56.96}, {"word": "greater", "start_offset": 712, "end_offset": 717, "start": 56.96, "end": 57.36}, {"word": "political", "start_offset": 717, "end_offset": 722, "start": 57.36, "end": 57.76}, {"word": "and", "start_offset": 722, "end_offset": 725, "start": 57.76, "end": 58.0}, {"word": "economic", "start_offset": 725, "end_offset": 731, "start": 58.0, "end": 58.480000000000004}, {"word": "influence", "start_offset": 731, "end_offset": 737, "start": 58.480000000000004, "end": 58.96}, {"word": "during", "start_offset": 737, "end_offset": 742, "start": 58.96, "end": 59.36}, {"word": "this", "start_offset": 742, "end_offset": 744, "start": 59.36, "end": 59.52}, {"word": "transition.", "start_offset": 744, "end_offset": 750, "start": 59.52, "end": 60.0}, {"word": "The", "start_offset": 752, "end_offset": 754, "start": 60.160000000000004, "end": 60.32}, {"word": "leadership", "start_offset": 754, "end_offset": 760, "start": 60.32, "end": 60.800000000000004}, {"word": "vacuum", "start_offset": 760, "end_offset": 768, "start": 60.800000000000004, "end": 61.44}, {"word": "also", "start_offset": 768, "end_offset": 771, "start": 61.44, "end": 61.68}, {"word": "raises", "start_offset": 771, "end_offset": 776, "start": 61.68, "end": 62.08}, {"word": "urgent", "start_offset": 776, "end_offset": 782, "start": 62.08, "end": 62.56}, {"word": "questions", "start_offset": 782, "end_offset": 787, "start": 62.56, "end": 62.96}, {"word": "regarding", "start_offset": 787, "end_offset": 793, "start": 62.96, "end": 63.440000000000005}, {"word": "Iran's", "start_offset": 793, "end_offset": 800, "start": 63.440000000000005, "end": 64.0}, {"word": "nuclear", "start_offset": 800, "end_offset": 806, "start": 64.0, "end": 64.48}, {"word": "policy", "start_offset": 806, "end_offset": 813, "start": 64.48, "end": 65.04}, {"word": "and", "start_offset": 813, "end_offset": 816, "start": 65.04, "end": 65.28}, {"word": "its", "start_offset": 816, "end_offset": 818, "start": 65.28, "end": 65.44}, {"word": "long-standing", "start_offset": 818, "end_offset": 827, "start": 65.44, "end": 66.16}, {"word": "religious", "start_offset": 827, "end_offset": 832, "start": 66.16, "end": 66.56}, {"word": "edict", "start_offset": 832, "end_offset": 838, "start": 66.56, "end": 67.04}, {"word": "against", "start_offset": 838, "end_offset": 841, "start": 67.04, "end": 67.28}, {"word": "weaponization.", "start_offset": 841, "end_offset": 853, "start": 67.28, "end": 68.24}, {"word": "With", "start_offset": 855, "end_offset": 859, "start": 68.4, "end": 68.72}, {"word": "Khamenei", "start_offset": 859, "end_offset": 867, "start": 68.72, "end": 69.36}, {"word": "gone,", "start_offset": 869, "end_offset": 872, "start": 69.52, "end": 69.76}, {"word": "internal", "start_offset": 875, "end_offset": 881, "start": 70.0, "end": 70.48}, {"word": "voices", "start_offset": 881, "end_offset": 886, "start": 70.48, "end": 70.88}, {"word": "seeking", "start_offset": 886, "end_offset": 891, "start": 70.88, "end": 71.28}, {"word": "greater", "start_offset": 891, "end_offset": 895, "start": 71.28, "end": 71.60000000000001}, {"word": "flexibility", "start_offset": 895, "end_offset": 902, "start": 71.60000000000001, "end": 72.16}, {"word": "in", "start_offset": 902, "end_offset": 904, "start": 72.16, "end": 72.32000000000001}, {"word": "the", "start_offset": 904, "end_offset": 905, "start": 72.32000000000001, "end": 72.4}, {"word": "country's", "start_offset": 905, "end_offset": 910, "start": 72.4, "end": 72.8}, {"word": "pursuit", "start_offset": 910, "end_offset": 913, "start": 72.8, "end": 73.04}, {"word": "of", "start_offset": 913, "end_offset": 915, "start": 73.04, "end": 73.2}, {"word": "deterrence", "start_offset": 915, "end_offset": 925, "start": 73.2, "end": 74.0}, {"word": "may", "start_offset": 925, "end_offset": 928, "start": 74.0, "end": 74.24}, {"word": "finally", "start_offset": 928, "end_offset": 933, "start": 74.24, "end": 74.64}, {"word": "gain", "start_offset": 933, "end_offset": 938, "start": 74.64, "end": 75.04}, {"word": "traction.", "start_offset": 938, "end_offset": 944, "start": 75.04, "end": 75.52}, {"word": "Internationally,", "start_offset": 948, "end_offset": 958, "start": 75.84, "end": 76.64}, {"word": "the", "start_offset": 960, "end_offset": 963, "start": 76.8, "end": 77.04}, {"word": "assassination", "start_offset": 963, "end_offset": 970, "start": 77.04, "end": 77.60000000000001}, {"word": "has", "start_offset": 970, "end_offset": 972, "start": 77.60000000000001, "end": 77.76}, {"word": "drawn", "start_offset": 972, "end_offset": 976, "start": 77.76, "end": 78.08}, {"word": "sharp", "start_offset": 976, "end_offset": 980, "start": 78.08, "end": 78.4}, {"word": "condemnation", "start_offset": 980, "end_offset": 988, "start": 78.4, "end": 79.04}, {"word": "from", "start_offset": 988, "end_offset": 990, "start": 79.04, "end": 79.2}, {"word": "China", "start_offset": 990, "end_offset": 994, "start": 79.2, "end": 79.52}, {"word": "and", "start_offset": 994, "end_offset": 996, "start": 79.52, "end": 79.68}, {"word": "Russia,", "start_offset": 996, "end_offset": 1002, "start": 79.68, "end": 80.16}, {"word": "while", "start_offset": 1004, "end_offset": 1007, "start": 80.32000000000001, "end": 80.56}, {"word": "the", "start_offset": 1007, "end_offset": 1009, "start": 80.56, "end": 80.72}, {"word": "region", "start_offset": 1009, "end_offset": 1013, "start": 80.72, "end": 81.04}, {"word": "braces", "start_offset": 1013, "end_offset": 1019, "start": 81.04, "end": 81.52}, {"word": "for", "start_offset": 1019, "end_offset": 1020, "start": 81.52, "end": 81.60000000000001}, {"word": "the", "start_offset": 1020, "end_offset": 1022, "start": 81.60000000000001, "end": 81.76}, {"word": "seismic", "start_offset": 1022, "end_offset": 1029, "start": 81.76, "end": 82.32000000000001}, {"word": "consequences", "start_offset": 1029, "end_offset": 1035, "start": 82.32000000000001, "end": 82.8}, {"word": "of", "start_offset": 1035, "end_offset": 1037, "start": 82.8, "end": 82.96000000000001}, {"word": "this", "start_offset": 1037, "end_offset": 1039, "start": 82.96000000000001, "end": 83.12}, {"word": "power", "start_offset": 1039, "end_offset": 1044, "start": 83.12, "end": 83.52}, {"word": "shift.", "start_offset": 1044, "end_offset": 1051, "start": 83.52, "end": 84.08}, {"word": "Khamenei's", "start_offset": 1055, "end_offset": 1066, "start": 84.4, "end": 85.28}, {"word": "legacy", "start_offset": 1066, "end_offset": 1071, "start": 85.28, "end": 85.68}, {"word": "will", "start_offset": 1071, "end_offset": 1073, "start": 85.68, "end": 85.84}, {"word": "ultimately", "start_offset": 1073, "end_offset": 1078, "start": 85.84, "end": 86.24}, {"word": "be", "start_offset": 1078, "end_offset": 1079, "start": 86.24, "end": 86.32000000000001}, {"word": "defined", "start_offset": 1079, "end_offset": 1085, "start": 86.32000000000001, "end": 86.8}, {"word": "by", "start_offset": 1085, "end_offset": 1086, "start": 86.8, "end": 86.88}, {"word": "his", "start_offset": 1086, "end_offset": 1088, "start": 86.88, "end": 87.04}, {"word": "iron", "start_offset": 1088, "end_offset": 1091, "start": 87.04, "end": 87.28}, {"word": "fist", "start_offset": 1091, "end_offset": 1095, "start": 87.28, "end": 87.60000000000001}, {"word": "and", "start_offset": 1095, "end_offset": 1097, "start": 87.60000000000001, "end": 87.76}, {"word": "a", "start_offset": 1097, "end_offset": 1098, "start": 87.76, "end": 87.84}, {"word": "four-decade", "start_offset": 1098, "end_offset": 1107, "start": 87.84, "end": 88.56}, {"word": "fixation", "start_offset": 1107, "end_offset": 1112, "start": 88.56, "end": 88.96000000000001}, {"word": "on", "start_offset": 1112, "end_offset": 1114, "start": 88.96000000000001, "end": 89.12}, {"word": "challenging", "start_offset": 1114, "end_offset": 1120, "start": 89.12, "end": 89.60000000000001}, {"word": "Western", "start_offset": 1120, "end_offset": 1125, "start": 89.60000000000001, "end": 90.0}, {"word": "interests.", "start_offset": 1125, "end_offset": 1131, "start": 90.0, "end": 90.48}], "segment": [{"text": "Iran has entered a state of survival following the death of Supreme Leader Ayatollah Ali Khamenei in a series of targeted airstrikes.", "start": 0.0, "end": 7.5200000000000005}, {"text": "The 86-year-old cleric was killed after decades of trading threats and missiles with Israel and the United States.", "start": 7.76, "end": 13.52}, {"text": "Satellite imagery confirms the destruction of his secure compound in downtown Tehran, now reduced to a grey mass.", "start": 13.76, "end": 20.16}, {"text": "While the strike marks the end of an era for a nation that has known only one leader for 40 years, the Islamic Republic's system of rule remains functional.", "start": 20.400000000000002, "end": 28.080000000000002}, {"text": "Security has been tightened across major cities as volunteer paramilitaries and armed police patrol the streets to prevent potential uprisings.", "start": 28.240000000000002, "end": 35.92}, {"text": "Despite calls from the West for a popular revolt, ordinary Iranians appear to be prioritizing safety over civil unrest.", "start": 36.160000000000004, "end": 43.28}, {"text": "For now, a temporary council consisting of the heads of the judiciary, legislature, and executive will govern the country according to the constitution.", "start": 43.52, "end": 52.24}, {"text": "Experts suggest the Islamic Revolutionary Guard Corps is poised to seize even greater political and economic influence during this transition.", "start": 52.56, "end": 60.0}, {"text": "The leadership vacuum also raises urgent questions regarding Iran's nuclear policy and its long-standing religious edict against weaponization.", "start": 60.160000000000004, "end": 68.24}, {"text": "With Khamenei gone, internal voices seeking greater flexibility in the country's pursuit of deterrence may finally gain traction.", "start": 68.4, "end": 75.52}, {"text": "Internationally, the assassination has drawn sharp condemnation from China and Russia, while the region braces for the seismic consequences of this power shift.", "start": 75.84, "end": 84.08}, {"text": "Khamenei's legacy will ultimately be defined by his iron fist and a four-decade fixation on challenging Western interests.", "start": 84.4, "end": 90.48}]}, "engine": "parakeet"}
+{
+    "text": "Two weeks into Operation Epic Fury, the military campaign to dismantle Iran's ballistic and nuclear capabilities has triggered a global crisis. While the initial air assault targeted air defenses and naval assets, the Iranian regime remains in power and is lashing out. The conflict has rapidly escalated across the Middle East with Iranian missiles striking Israel and American bases. Beyond the immediate combat zones, the humanitarian toll is staggering. The United Nations reports that over 3 million people are now displaced as civilians flee major cities. Economically, the world is reeling as the Strait of Hormuz remains effectively choked off, disrupting 20% of the global oil supply. In response to surging costs, European governments are moving to crack down on price gouging by energy firms. This escalation has left Washington's Gulf allies in a state of profound shock as regional stability evaporates. Despite U.S. efforts to pivot away from the Middle East, this conflict proves the region continues to dominate American foreign policy.",
+    "language": "",
+    "model": "parakeet-nvidia/parakeet-tdt-0.6b-v3",
+    "duration": 58,
+    "segments": {
+        "word": [
+            {
+                "word": "Two",
+                "start_offset": 0,
+                "end_offset": 4,
+                "start": 0.0,
+                "end": 0.32
+            },
+            {
+                "word": "weeks",
+                "start_offset": 4,
+                "end_offset": 6,
+                "start": 0.32,
+                "end": 0.48
+            },
+            {
+                "word": "into",
+                "start_offset": 6,
+                "end_offset": 9,
+                "start": 0.48,
+                "end": 0.72
+            },
+            {
+                "word": "Operation",
+                "start_offset": 9,
+                "end_offset": 14,
+                "start": 0.72,
+                "end": 1.12
+            },
+            {
+                "word": "Epic",
+                "start_offset": 14,
+                "end_offset": 20,
+                "start": 1.12,
+                "end": 1.6
+            },
+            {
+                "word": "Fury,",
+                "start_offset": 20,
+                "end_offset": 24,
+                "start": 1.6,
+                "end": 1.92
+            },
+            {
+                "word": "the",
+                "start_offset": 28,
+                "end_offset": 30,
+                "start": 2.24,
+                "end": 2.4
+            },
+            {
+                "word": "military",
+                "start_offset": 30,
+                "end_offset": 35,
+                "start": 2.4,
+                "end": 2.8000000000000003
+            },
+            {
+                "word": "campaign",
+                "start_offset": 35,
+                "end_offset": 39,
+                "start": 2.8000000000000003,
+                "end": 3.12
+            },
+            {
+                "word": "to",
+                "start_offset": 39,
+                "end_offset": 41,
+                "start": 3.12,
+                "end": 3.2800000000000002
+            },
+            {
+                "word": "dismantle",
+                "start_offset": 41,
+                "end_offset": 47,
+                "start": 3.2800000000000002,
+                "end": 3.7600000000000002
+            },
+            {
+                "word": "Iran's",
+                "start_offset": 47,
+                "end_offset": 52,
+                "start": 3.7600000000000002,
+                "end": 4.16
+            },
+            {
+                "word": "ballistic",
+                "start_offset": 52,
+                "end_offset": 58,
+                "start": 4.16,
+                "end": 4.64
+            },
+            {
+                "word": "and",
+                "start_offset": 58,
+                "end_offset": 60,
+                "start": 4.64,
+                "end": 4.8
+            },
+            {
+                "word": "nuclear",
+                "start_offset": 60,
+                "end_offset": 66,
+                "start": 4.8,
+                "end": 5.28
+            },
+            {
+                "word": "capabilities",
+                "start_offset": 66,
+                "end_offset": 75,
+                "start": 5.28,
+                "end": 6.0
+            },
+            {
+                "word": "has",
+                "start_offset": 75,
+                "end_offset": 77,
+                "start": 6.0,
+                "end": 6.16
+            },
+            {
+                "word": "triggered",
+                "start_offset": 77,
+                "end_offset": 82,
+                "start": 6.16,
+                "end": 6.5600000000000005
+            },
+            {
+                "word": "a",
+                "start_offset": 82,
+                "end_offset": 85,
+                "start": 6.5600000000000005,
+                "end": 6.8
+            },
+            {
+                "word": "global",
+                "start_offset": 85,
+                "end_offset": 88,
+                "start": 6.8,
+                "end": 7.04
+            },
+            {
+                "word": "crisis.",
+                "start_offset": 88,
+                "end_offset": 96,
+                "start": 7.04,
+                "end": 7.68
+            },
+            {
+                "word": "While",
+                "start_offset": 99,
+                "end_offset": 102,
+                "start": 7.92,
+                "end": 8.16
+            },
+            {
+                "word": "the",
+                "start_offset": 102,
+                "end_offset": 104,
+                "start": 8.16,
+                "end": 8.32
+            },
+            {
+                "word": "initial",
+                "start_offset": 104,
+                "end_offset": 108,
+                "start": 8.32,
+                "end": 8.64
+            },
+            {
+                "word": "air",
+                "start_offset": 108,
+                "end_offset": 111,
+                "start": 8.64,
+                "end": 8.88
+            },
+            {
+                "word": "assault",
+                "start_offset": 111,
+                "end_offset": 116,
+                "start": 8.88,
+                "end": 9.28
+            },
+            {
+                "word": "targeted",
+                "start_offset": 116,
+                "end_offset": 121,
+                "start": 9.28,
+                "end": 9.68
+            },
+            {
+                "word": "air",
+                "start_offset": 121,
+                "end_offset": 124,
+                "start": 9.68,
+                "end": 9.92
+            },
+            {
+                "word": "defenses",
+                "start_offset": 124,
+                "end_offset": 130,
+                "start": 9.92,
+                "end": 10.4
+            },
+            {
+                "word": "and",
+                "start_offset": 130,
+                "end_offset": 133,
+                "start": 10.4,
+                "end": 10.64
+            },
+            {
+                "word": "naval",
+                "start_offset": 133,
+                "end_offset": 137,
+                "start": 10.64,
+                "end": 10.96
+            },
+            {
+                "word": "assets,",
+                "start_offset": 137,
+                "end_offset": 142,
+                "start": 10.96,
+                "end": 11.36
+            },
+            {
+                "word": "the",
+                "start_offset": 144,
+                "end_offset": 146,
+                "start": 11.52,
+                "end": 11.68
+            },
+            {
+                "word": "Iranian",
+                "start_offset": 146,
+                "end_offset": 153,
+                "start": 11.68,
+                "end": 12.24
+            },
+            {
+                "word": "regime",
+                "start_offset": 153,
+                "end_offset": 158,
+                "start": 12.24,
+                "end": 12.64
+            },
+            {
+                "word": "remains",
+                "start_offset": 158,
+                "end_offset": 162,
+                "start": 12.64,
+                "end": 12.96
+            },
+            {
+                "word": "in",
+                "start_offset": 162,
+                "end_offset": 164,
+                "start": 12.96,
+                "end": 13.120000000000001
+            },
+            {
+                "word": "power",
+                "start_offset": 164,
+                "end_offset": 167,
+                "start": 13.120000000000001,
+                "end": 13.36
+            },
+            {
+                "word": "and",
+                "start_offset": 167,
+                "end_offset": 169,
+                "start": 13.36,
+                "end": 13.52
+            },
+            {
+                "word": "is",
+                "start_offset": 169,
+                "end_offset": 171,
+                "start": 13.52,
+                "end": 13.68
+            },
+            {
+                "word": "lashing",
+                "start_offset": 171,
+                "end_offset": 178,
+                "start": 13.68,
+                "end": 14.24
+            },
+            {
+                "word": "out.",
+                "start_offset": 178,
+                "end_offset": 181,
+                "start": 14.24,
+                "end": 14.48
+            },
+            {
+                "word": "The",
+                "start_offset": 183,
+                "end_offset": 186,
+                "start": 14.64,
+                "end": 14.88
+            },
+            {
+                "word": "conflict",
+                "start_offset": 186,
+                "end_offset": 192,
+                "start": 14.88,
+                "end": 15.36
+            },
+            {
+                "word": "has",
+                "start_offset": 192,
+                "end_offset": 194,
+                "start": 15.36,
+                "end": 15.52
+            },
+            {
+                "word": "rapidly",
+                "start_offset": 194,
+                "end_offset": 199,
+                "start": 15.52,
+                "end": 15.92
+            },
+            {
+                "word": "escalated",
+                "start_offset": 199,
+                "end_offset": 206,
+                "start": 15.92,
+                "end": 16.48
+            },
+            {
+                "word": "across",
+                "start_offset": 206,
+                "end_offset": 209,
+                "start": 16.48,
+                "end": 16.72
+            },
+            {
+                "word": "the",
+                "start_offset": 209,
+                "end_offset": 210,
+                "start": 16.72,
+                "end": 16.8
+            },
+            {
+                "word": "Middle",
+                "start_offset": 210,
+                "end_offset": 213,
+                "start": 16.8,
+                "end": 17.04
+            },
+            {
+                "word": "East",
+                "start_offset": 213,
+                "end_offset": 215,
+                "start": 17.04,
+                "end": 17.2
+            },
+            {
+                "word": "with",
+                "start_offset": 216,
+                "end_offset": 218,
+                "start": 17.28,
+                "end": 17.44
+            },
+            {
+                "word": "Iranian",
+                "start_offset": 218,
+                "end_offset": 224,
+                "start": 17.44,
+                "end": 17.92
+            },
+            {
+                "word": "missiles",
+                "start_offset": 224,
+                "end_offset": 230,
+                "start": 17.92,
+                "end": 18.400000000000002
+            },
+            {
+                "word": "striking",
+                "start_offset": 230,
+                "end_offset": 234,
+                "start": 18.400000000000002,
+                "end": 18.72
+            },
+            {
+                "word": "Israel",
+                "start_offset": 234,
+                "end_offset": 240,
+                "start": 18.72,
+                "end": 19.2
+            },
+            {
+                "word": "and",
+                "start_offset": 240,
+                "end_offset": 242,
+                "start": 19.2,
+                "end": 19.36
+            },
+            {
+                "word": "American",
+                "start_offset": 242,
+                "end_offset": 249,
+                "start": 19.36,
+                "end": 19.92
+            },
+            {
+                "word": "bases.",
+                "start_offset": 249,
+                "end_offset": 255,
+                "start": 19.92,
+                "end": 20.400000000000002
+            },
+            {
+                "word": "Beyond",
+                "start_offset": 258,
+                "end_offset": 263,
+                "start": 20.64,
+                "end": 21.04
+            },
+            {
+                "word": "the",
+                "start_offset": 263,
+                "end_offset": 265,
+                "start": 21.04,
+                "end": 21.2
+            },
+            {
+                "word": "immediate",
+                "start_offset": 265,
+                "end_offset": 270,
+                "start": 21.2,
+                "end": 21.6
+            },
+            {
+                "word": "combat",
+                "start_offset": 270,
+                "end_offset": 276,
+                "start": 21.6,
+                "end": 22.080000000000002
+            },
+            {
+                "word": "zones,",
+                "start_offset": 276,
+                "end_offset": 281,
+                "start": 22.080000000000002,
+                "end": 22.48
+            },
+            {
+                "word": "the",
+                "start_offset": 283,
+                "end_offset": 285,
+                "start": 22.64,
+                "end": 22.8
+            },
+            {
+                "word": "humanitarian",
+                "start_offset": 285,
+                "end_offset": 296,
+                "start": 22.8,
+                "end": 23.68
+            },
+            {
+                "word": "toll",
+                "start_offset": 296,
+                "end_offset": 301,
+                "start": 23.68,
+                "end": 24.080000000000002
+            },
+            {
+                "word": "is",
+                "start_offset": 301,
+                "end_offset": 304,
+                "start": 24.080000000000002,
+                "end": 24.32
+            },
+            {
+                "word": "staggering.",
+                "start_offset": 304,
+                "end_offset": 314,
+                "start": 24.32,
+                "end": 25.12
+            },
+            {
+                "word": "The",
+                "start_offset": 317,
+                "end_offset": 320,
+                "start": 25.36,
+                "end": 25.6
+            },
+            {
+                "word": "United",
+                "start_offset": 320,
+                "end_offset": 325,
+                "start": 25.6,
+                "end": 26.0
+            },
+            {
+                "word": "Nations",
+                "start_offset": 325,
+                "end_offset": 330,
+                "start": 26.0,
+                "end": 26.400000000000002
+            },
+            {
+                "word": "reports",
+                "start_offset": 330,
+                "end_offset": 335,
+                "start": 26.400000000000002,
+                "end": 26.8
+            },
+            {
+                "word": "that",
+                "start_offset": 335,
+                "end_offset": 338,
+                "start": 26.8,
+                "end": 27.04
+            },
+            {
+                "word": "over",
+                "start_offset": 338,
+                "end_offset": 341,
+                "start": 27.04,
+                "end": 27.28
+            },
+            {
+                "word": "3",
+                "start_offset": 341,
+                "end_offset": 345,
+                "start": 27.28,
+                "end": 27.6
+            },
+            {
+                "word": "million",
+                "start_offset": 345,
+                "end_offset": 350,
+                "start": 27.6,
+                "end": 28.0
+            },
+            {
+                "word": "people",
+                "start_offset": 350,
+                "end_offset": 352,
+                "start": 28.0,
+                "end": 28.16
+            },
+            {
+                "word": "are",
+                "start_offset": 352,
+                "end_offset": 354,
+                "start": 28.16,
+                "end": 28.32
+            },
+            {
+                "word": "now",
+                "start_offset": 354,
+                "end_offset": 357,
+                "start": 28.32,
+                "end": 28.560000000000002
+            },
+            {
+                "word": "displaced",
+                "start_offset": 357,
+                "end_offset": 363,
+                "start": 28.560000000000002,
+                "end": 29.04
+            },
+            {
+                "word": "as",
+                "start_offset": 363,
+                "end_offset": 365,
+                "start": 29.04,
+                "end": 29.2
+            },
+            {
+                "word": "civilians",
+                "start_offset": 365,
+                "end_offset": 371,
+                "start": 29.2,
+                "end": 29.68
+            },
+            {
+                "word": "flee",
+                "start_offset": 371,
+                "end_offset": 376,
+                "start": 29.68,
+                "end": 30.080000000000002
+            },
+            {
+                "word": "major",
+                "start_offset": 376,
+                "end_offset": 380,
+                "start": 30.080000000000002,
+                "end": 30.400000000000002
+            },
+            {
+                "word": "cities.",
+                "start_offset": 380,
+                "end_offset": 386,
+                "start": 30.400000000000002,
+                "end": 30.88
+            },
+            {
+                "word": "Economically,",
+                "start_offset": 389,
+                "end_offset": 398,
+                "start": 31.12,
+                "end": 31.84
+            },
+            {
+                "word": "the",
+                "start_offset": 399,
+                "end_offset": 400,
+                "start": 31.92,
+                "end": 32.0
+            },
+            {
+                "word": "world",
+                "start_offset": 400,
+                "end_offset": 402,
+                "start": 32.0,
+                "end": 32.160000000000004
+            },
+            {
+                "word": "is",
+                "start_offset": 402,
+                "end_offset": 405,
+                "start": 32.160000000000004,
+                "end": 32.4
+            },
+            {
+                "word": "reeling",
+                "start_offset": 405,
+                "end_offset": 411,
+                "start": 32.4,
+                "end": 32.88
+            },
+            {
+                "word": "as",
+                "start_offset": 411,
+                "end_offset": 412,
+                "start": 32.88,
+                "end": 32.96
+            },
+            {
+                "word": "the",
+                "start_offset": 412,
+                "end_offset": 414,
+                "start": 32.96,
+                "end": 33.12
+            },
+            {
+                "word": "Strait",
+                "start_offset": 414,
+                "end_offset": 417,
+                "start": 33.12,
+                "end": 33.36
+            },
+            {
+                "word": "of",
+                "start_offset": 417,
+                "end_offset": 419,
+                "start": 33.36,
+                "end": 33.52
+            },
+            {
+                "word": "Hormuz",
+                "start_offset": 419,
+                "end_offset": 427,
+                "start": 33.52,
+                "end": 34.160000000000004
+            },
+            {
+                "word": "remains",
+                "start_offset": 427,
+                "end_offset": 431,
+                "start": 34.160000000000004,
+                "end": 34.480000000000004
+            },
+            {
+                "word": "effectively",
+                "start_offset": 431,
+                "end_offset": 437,
+                "start": 34.480000000000004,
+                "end": 34.96
+            },
+            {
+                "word": "choked",
+                "start_offset": 437,
+                "end_offset": 442,
+                "start": 34.96,
+                "end": 35.36
+            },
+            {
+                "word": "off,",
+                "start_offset": 442,
+                "end_offset": 445,
+                "start": 35.36,
+                "end": 35.6
+            },
+            {
+                "word": "disrupting",
+                "start_offset": 447,
+                "end_offset": 454,
+                "start": 35.76,
+                "end": 36.32
+            },
+            {
+                "word": "20%",
+                "start_offset": 454,
+                "end_offset": 458,
+                "start": 36.32,
+                "end": 36.64
+            },
+            {
+                "word": "of",
+                "start_offset": 461,
+                "end_offset": 462,
+                "start": 36.88,
+                "end": 36.96
+            },
+            {
+                "word": "the",
+                "start_offset": 462,
+                "end_offset": 465,
+                "start": 36.96,
+                "end": 37.2
+            },
+            {
+                "word": "global",
+                "start_offset": 465,
+                "end_offset": 469,
+                "start": 37.2,
+                "end": 37.52
+            },
+            {
+                "word": "oil",
+                "start_offset": 469,
+                "end_offset": 474,
+                "start": 37.52,
+                "end": 37.92
+            },
+            {
+                "word": "supply.",
+                "start_offset": 474,
+                "end_offset": 481,
+                "start": 37.92,
+                "end": 38.480000000000004
+            },
+            {
+                "word": "In",
+                "start_offset": 484,
+                "end_offset": 487,
+                "start": 38.72,
+                "end": 38.96
+            },
+            {
+                "word": "response",
+                "start_offset": 487,
+                "end_offset": 493,
+                "start": 38.96,
+                "end": 39.44
+            },
+            {
+                "word": "to",
+                "start_offset": 493,
+                "end_offset": 495,
+                "start": 39.44,
+                "end": 39.6
+            },
+            {
+                "word": "surging",
+                "start_offset": 495,
+                "end_offset": 502,
+                "start": 39.6,
+                "end": 40.160000000000004
+            },
+            {
+                "word": "costs,",
+                "start_offset": 502,
+                "end_offset": 507,
+                "start": 40.160000000000004,
+                "end": 40.56
+            },
+            {
+                "word": "European",
+                "start_offset": 510,
+                "end_offset": 515,
+                "start": 40.800000000000004,
+                "end": 41.2
+            },
+            {
+                "word": "governments",
+                "start_offset": 515,
+                "end_offset": 521,
+                "start": 41.2,
+                "end": 41.68
+            },
+            {
+                "word": "are",
+                "start_offset": 521,
+                "end_offset": 523,
+                "start": 41.68,
+                "end": 41.84
+            },
+            {
+                "word": "moving",
+                "start_offset": 523,
+                "end_offset": 526,
+                "start": 41.84,
+                "end": 42.08
+            },
+            {
+                "word": "to",
+                "start_offset": 526,
+                "end_offset": 527,
+                "start": 42.08,
+                "end": 42.160000000000004
+            },
+            {
+                "word": "crack",
+                "start_offset": 527,
+                "end_offset": 531,
+                "start": 42.160000000000004,
+                "end": 42.480000000000004
+            },
+            {
+                "word": "down",
+                "start_offset": 531,
+                "end_offset": 533,
+                "start": 42.480000000000004,
+                "end": 42.64
+            },
+            {
+                "word": "on",
+                "start_offset": 533,
+                "end_offset": 534,
+                "start": 42.64,
+                "end": 42.72
+            },
+            {
+                "word": "price",
+                "start_offset": 534,
+                "end_offset": 538,
+                "start": 42.72,
+                "end": 43.04
+            },
+            {
+                "word": "gouging",
+                "start_offset": 538,
+                "end_offset": 543,
+                "start": 43.04,
+                "end": 43.44
+            },
+            {
+                "word": "by",
+                "start_offset": 545,
+                "end_offset": 546,
+                "start": 43.6,
+                "end": 43.68
+            },
+            {
+                "word": "energy",
+                "start_offset": 546,
+                "end_offset": 552,
+                "start": 43.68,
+                "end": 44.160000000000004
+            },
+            {
+                "word": "firms.",
+                "start_offset": 552,
+                "end_offset": 557,
+                "start": 44.160000000000004,
+                "end": 44.56
+            },
+            {
+                "word": "This",
+                "start_offset": 559,
+                "end_offset": 563,
+                "start": 44.72,
+                "end": 45.04
+            },
+            {
+                "word": "escalation",
+                "start_offset": 563,
+                "end_offset": 571,
+                "start": 45.04,
+                "end": 45.68
+            },
+            {
+                "word": "has",
+                "start_offset": 571,
+                "end_offset": 573,
+                "start": 45.68,
+                "end": 45.84
+            },
+            {
+                "word": "left",
+                "start_offset": 573,
+                "end_offset": 576,
+                "start": 45.84,
+                "end": 46.08
+            },
+            {
+                "word": "Washington's",
+                "start_offset": 576,
+                "end_offset": 583,
+                "start": 46.08,
+                "end": 46.64
+            },
+            {
+                "word": "Gulf",
+                "start_offset": 583,
+                "end_offset": 588,
+                "start": 46.64,
+                "end": 47.04
+            },
+            {
+                "word": "allies",
+                "start_offset": 588,
+                "end_offset": 593,
+                "start": 47.04,
+                "end": 47.44
+            },
+            {
+                "word": "in",
+                "start_offset": 593,
+                "end_offset": 595,
+                "start": 47.44,
+                "end": 47.6
+            },
+            {
+                "word": "a",
+                "start_offset": 595,
+                "end_offset": 596,
+                "start": 47.6,
+                "end": 47.68
+            },
+            {
+                "word": "state",
+                "start_offset": 596,
+                "end_offset": 600,
+                "start": 47.68,
+                "end": 48.0
+            },
+            {
+                "word": "of",
+                "start_offset": 600,
+                "end_offset": 602,
+                "start": 48.0,
+                "end": 48.160000000000004
+            },
+            {
+                "word": "profound",
+                "start_offset": 602,
+                "end_offset": 609,
+                "start": 48.160000000000004,
+                "end": 48.72
+            },
+            {
+                "word": "shock",
+                "start_offset": 609,
+                "end_offset": 616,
+                "start": 48.72,
+                "end": 49.28
+            },
+            {
+                "word": "as",
+                "start_offset": 616,
+                "end_offset": 620,
+                "start": 49.28,
+                "end": 49.6
+            },
+            {
+                "word": "regional",
+                "start_offset": 620,
+                "end_offset": 626,
+                "start": 49.6,
+                "end": 50.08
+            },
+            {
+                "word": "stability",
+                "start_offset": 626,
+                "end_offset": 632,
+                "start": 50.08,
+                "end": 50.56
+            },
+            {
+                "word": "evaporates.",
+                "start_offset": 632,
+                "end_offset": 644,
+                "start": 50.56,
+                "end": 51.52
+            },
+            {
+                "word": "Despite",
+                "start_offset": 647,
+                "end_offset": 654,
+                "start": 51.76,
+                "end": 52.32
+            },
+            {
+                "word": "U.S.",
+                "start_offset": 654,
+                "end_offset": 658,
+                "start": 52.32,
+                "end": 52.64
+            },
+            {
+                "word": "efforts",
+                "start_offset": 659,
+                "end_offset": 662,
+                "start": 52.72,
+                "end": 52.96
+            },
+            {
+                "word": "to",
+                "start_offset": 662,
+                "end_offset": 664,
+                "start": 52.96,
+                "end": 53.120000000000005
+            },
+            {
+                "word": "pivot",
+                "start_offset": 664,
+                "end_offset": 668,
+                "start": 53.120000000000005,
+                "end": 53.44
+            },
+            {
+                "word": "away",
+                "start_offset": 668,
+                "end_offset": 671,
+                "start": 53.44,
+                "end": 53.68
+            },
+            {
+                "word": "from",
+                "start_offset": 671,
+                "end_offset": 672,
+                "start": 53.68,
+                "end": 53.76
+            },
+            {
+                "word": "the",
+                "start_offset": 672,
+                "end_offset": 673,
+                "start": 53.76,
+                "end": 53.84
+            },
+            {
+                "word": "Middle",
+                "start_offset": 673,
+                "end_offset": 677,
+                "start": 53.84,
+                "end": 54.160000000000004
+            },
+            {
+                "word": "East,",
+                "start_offset": 677,
+                "end_offset": 681,
+                "start": 54.160000000000004,
+                "end": 54.480000000000004
+            },
+            {
+                "word": "this",
+                "start_offset": 683,
+                "end_offset": 685,
+                "start": 54.64,
+                "end": 54.800000000000004
+            },
+            {
+                "word": "conflict",
+                "start_offset": 685,
+                "end_offset": 691,
+                "start": 54.800000000000004,
+                "end": 55.28
+            },
+            {
+                "word": "proves",
+                "start_offset": 691,
+                "end_offset": 697,
+                "start": 55.28,
+                "end": 55.76
+            },
+            {
+                "word": "the",
+                "start_offset": 697,
+                "end_offset": 699,
+                "start": 55.76,
+                "end": 55.92
+            },
+            {
+                "word": "region",
+                "start_offset": 699,
+                "end_offset": 703,
+                "start": 55.92,
+                "end": 56.24
+            },
+            {
+                "word": "continues",
+                "start_offset": 703,
+                "end_offset": 708,
+                "start": 56.24,
+                "end": 56.64
+            },
+            {
+                "word": "to",
+                "start_offset": 708,
+                "end_offset": 710,
+                "start": 56.64,
+                "end": 56.800000000000004
+            },
+            {
+                "word": "dominate",
+                "start_offset": 710,
+                "end_offset": 716,
+                "start": 56.800000000000004,
+                "end": 57.28
+            },
+            {
+                "word": "American",
+                "start_offset": 716,
+                "end_offset": 721,
+                "start": 57.28,
+                "end": 57.68
+            },
+            {
+                "word": "foreign",
+                "start_offset": 721,
+                "end_offset": 726,
+                "start": 57.68,
+                "end": 58.08
+            },
+            {
+                "word": "policy.",
+                "start_offset": 726,
+                "end_offset": 731,
+                "start": 58.08,
+                "end": 58.480000000000004
+            }
+        ],
+        "segment": [
+            {
+                "text": "Two weeks into Operation Epic Fury, the military campaign to dismantle Iran's ballistic and nuclear capabilities has triggered a global crisis.",
+                "start": 0.0,
+                "end": 7.68
+            },
+            {
+                "text": "While the initial air assault targeted air defenses and naval assets, the Iranian regime remains in power and is lashing out.",
+                "start": 7.92,
+                "end": 14.48
+            },
+            {
+                "text": "The conflict has rapidly escalated across the Middle East with Iranian missiles striking Israel and American bases.",
+                "start": 14.64,
+                "end": 20.400000000000002
+            },
+            {
+                "text": "Beyond the immediate combat zones, the humanitarian toll is staggering.",
+                "start": 20.64,
+                "end": 25.12
+            },
+            {
+                "text": "The United Nations reports that over 3 million people are now displaced as civilians flee major cities.",
+                "start": 25.36,
+                "end": 30.88
+            },
+            {
+                "text": "Economically, the world is reeling as the Strait of Hormuz remains effectively choked off, disrupting 20% of the global oil supply.",
+                "start": 31.12,
+                "end": 38.480000000000004
+            },
+            {
+                "text": "In response to surging costs, European governments are moving to crack down on price gouging by energy firms.",
+                "start": 38.72,
+                "end": 44.56
+            },
+            {
+                "text": "This escalation has left Washington's Gulf allies in a state of profound shock as regional stability evaporates.",
+                "start": 44.72,
+                "end": 51.52
+            },
+            {
+                "text": "Despite U.S.",
+                "start": 51.76,
+                "end": 52.64
+            },
+            {
+                "text": "efforts to pivot away from the Middle East, this conflict proves the region continues to dominate American foreign policy.",
+                "start": 52.72,
+                "end": 58.480000000000004
+            }
+        ]
+    },
+    "engine": "parakeet"
+}

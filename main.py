@@ -3,7 +3,11 @@ load_env()
 
 import argparse
 import os
+import random
+import glob as glob_module
 
+import jebin_lib.merge_audio as merge_audio
+from jebin_lib import normalize_loudness
 from glimpse.core.scraper import Scraper
 from glimpse.core.ai_analysis import AIAnalyzer
 from glimpse.core.tts_manager import TTSManager
@@ -53,6 +57,18 @@ def main():
             # PASS 3: TTS
             audio_path, audio_segments = tts.generate_all(narration_plan, tmpdir)
             
+            # PASS 3.5: Merge background music
+            bg_music_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "glimpse", "bg_music")
+            bg_files = glob_module.glob(os.path.join(bg_music_dir, "*.*"))
+            if bg_files:
+                bg_path = random.choice(bg_files)
+                merged_path = os.path.join(tmpdir, "narration_with_bg.wav")
+                logger_config.info(f"Merging bg music: {os.path.basename(bg_path)}")
+                merge_audio.process(audio_path, bg_path, merged_path)
+                audio_path = merged_path
+            else:
+                logger_config.warning("No bg music files found, skipping merge.")
+
             # PASS 4: Scraper Precision Recording
             logger_config.info("Pipeline Step 4: Video Scraper")
             pass_wall_time = scraper.record_video_pass(page, narration_plan, audio_segments)
@@ -82,7 +98,10 @@ def main():
                 
             total_duration = audio_segments[-1].end_time if audio_segments else 0
             assembler.assemble_video(webm_path, audio_path, output_path, total_duration, start_offset)
-            
+
+            # PASS 6: Loudness normalization (EBU R128, -14 LUFS for YouTube Shorts)
+            normalize_loudness(output_path)
+
             logger_config.success(f"Done! -> {output_path} (Took {format_time(full_timer.duration)})")
             
         finally:
