@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-glimpse = "main:main"
+glimpse = "glimpse.main:main"
 
 [tool.setuptools.packages.find]
 where = ["."]

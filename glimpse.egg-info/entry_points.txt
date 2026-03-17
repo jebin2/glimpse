@@ -1,2 +1,2 @@
 [console_scripts]
-glimpse = main:main
+glimpse = glimpse.main:main

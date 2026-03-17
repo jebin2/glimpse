@@ -1,13 +1,16 @@
 README.md
 pyproject.toml
 glimpse/__init__.py
+glimpse/main.py
 glimpse.egg-info/PKG-INFO
 glimpse.egg-info/SOURCES.txt
 glimpse.egg-info/dependency_links.txt
 glimpse.egg-info/entry_points.txt
 glimpse.egg-info/requires.txt
 glimpse.egg-info/top_level.txt
-glimpse/bg_music/lnplusmusic-breaking-news-music-intro-433544.mp3
+glimpse/bg_music/Breaking the Silence.mp3
+glimpse/bg_music/ffmpeg.txt
+glimpse/bg_music/final_0.mp3
 glimpse/core/__init__.py
 glimpse/core/ai_analysis.py
 glimpse/core/page_actions.py

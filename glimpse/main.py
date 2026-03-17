@@ -59,7 +59,7 @@ def main():
             audio_path, audio_segments = tts.generate_all(narration_plan, tmpdir)
             
             # PASS 3.5: Merge background music
-            bg_music_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "glimpse", "bg_music")
+            bg_music_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "bg_music")
             bg_files = [f for f in glob_module.glob(os.path.join(bg_music_dir, "*.*"))
                         if os.path.basename(f).startswith("final_")]
             if bg_files:
