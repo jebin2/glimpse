@@ -282,33 +282,6 @@ def remove_lower_third(page: Page):
     """
     page.evaluate(js_code)
 
-
-def remove_ads(page: Page):
-    """
-    Injects a global CSS style to hide generic ad containers and promotional blocks
-    commonly found on news sites. This creates a cleaner video recording.
-    """
-    js_code = """
-    (function() {
-        const selectors = [
-            '[data-component="advertisement-block"]',
-            '.ad-art_wap'
-        ];
-        const style = document.createElement('style');
-        style.type = 'text/css';
-        style.innerHTML = selectors.join(', ') + ' { display: none !important; height: 0 !important; visibility: hidden !important; }';
-        document.head.appendChild(style);
-        try {
-            const adNodes = document.querySelectorAll(selectors.join(', '));
-            adNodes.forEach(node => {
-                if(node && node.parentNode) node.parentNode.removeChild(node);
-            });
-        } catch(e) {}
-    })();
-    """
-    page.evaluate(js_code)
-
-
 def inject_headline_card(page: Page):
     """
     Injects a full-screen headline card for the first ~1.5s of the recording pass.

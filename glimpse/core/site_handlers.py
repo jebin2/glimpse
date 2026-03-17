@@ -97,6 +97,51 @@ SITE_HANDLERS = {
     "www.ndtv.com": handle_ndtv
 }
 
+# Selectors applied to every site regardless of domain.
+GLOBAL_ADS_SELECTORS = [
+    '[data-google-query-id]',
+]
+
+# Per-site selectors to force-hide after render (persistent MutationObserver).
+# Add a domain key and a list of CSS selectors to hide for that site.
+ADS_RM_SELECTORS = {
+    "bbc.com": [
+        '[data-component="advertisement-block"]',
+        '[class="dotcom-slot"]',
+        '[data-component="ad-slot"]'
+    ],
+}
+
+def apply_ads_rm_handlers(page: Page, url: str):
+    """
+    Injects a persistent MutationObserver that force-hides ad elements.
+    Always applies GLOBAL_ADS_SELECTORS; additionally applies any per-domain
+    selectors defined in ADS_RM_SELECTORS.
+    """
+    domain = urlparse(url).netloc
+    selectors = list(GLOBAL_ADS_SELECTORS)
+    for key, sel_list in ADS_RM_SELECTORS.items():
+        if key in domain:
+            selectors += sel_list
+            break
+
+    logger_config.info(f"Injecting ads_rm_handler for {domain}: {selectors}")
+    page.evaluate("""(selectors) => {
+        function hideAll() {
+            selectors.forEach(sel => {
+                document.querySelectorAll(sel).forEach(el => {
+                    el.style.setProperty('display', 'none', 'important');
+                    el.style.setProperty('visibility', 'hidden', 'important');
+                    el.style.setProperty('height', '0', 'important');
+                    el.style.setProperty('overflow', 'hidden', 'important');
+                });
+            });
+        }
+        hideAll();
+        const observer = new MutationObserver(hideAll);
+        observer.observe(document.body, { childList: true, subtree: true });
+    }""", selectors)
+
 def apply_site_handlers(page: Page, url: str):
     domain = urlparse(url).netloc
     
